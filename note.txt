@@ -1,0 +1,68 @@
+1.Bunch模式 基本要素：
+class Bunch(dict):
+    def __init__(self,*args,**kwds):
+        super(Bunch,self).__init__(*args,**kwds)
+        self.__dict__ = self
+
+x = Bunch(name='jack',position='BeiJing')
+x.name = 'jack'
+
+它能让我们以命令行参数的形式创建相关对象，并设置任何属性。
+
+2_1.list的隐形平方级操作：
+成员查询在list中是线性级的，在set中是常数级的。所以，如果想依次往某个集合里添加新值，并在每一步中都检查该值是否被添加的话，应该用set.
+2_2：
+(1)
+s = ''
+for i in string_product():
+     s+=i
+
+不如替换成list的append和extend：
+chunks = []
+for c in string_producer():
+    chunks.append(chunk)
+s = ''.join(chunks)
+
+(2)
+lists = [[1,2],[3,4,5],[6]]
+sum(lists,[])
+平方级运算。
+
+res = []
+for lst in lists:
+    res.extend(lst)
+线级运算。
+
+3.浮点数的运算：
+不要对浮点数进行等值比较：
+sum(0.1 for i in range(10)) == 1.0
+是False
+
+但可以用unittest的assertAlmostEqual类似的方法来比较：
+from unittest import assertAlmostEqual
+def almost_equal(x,y,places=7):
+    return round(abs(x-y),places) == 0
+almost_equal(sum(0.1 for i in range(10)),1.0)
+是True。
+
+精确的十进制浮点数表示法：
+from decimal import *
+sum(Decimal('0.1') for i in range(10)) == Decimal('1.0')
+是True
+
+对一定数位范围内的十进制数进行精确计算：
+import Sage
+sage:3/5 * 11/7 + sqrt(5239)
+13*sqrt(31) + 33/35
+
+精度问题：
+(1)
+from math import sqrt
+x = 8762348761.13
+sqrt(x+1) - sqrt(x)
+5.341455107554793e-06
+(2)
+1.0/(sqrt(x+1)+sqrt(x))
+5.3414570026237696e-06
+
+第二个式子精度更高。
