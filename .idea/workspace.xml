@@ -14,12 +14,14 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
     <SUITE FILE_PATH="coverage/Python_learnning$3_dir_example.coverage" NAME="3-dir-example Coverage Results" MODIFIED="1478160339031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/Python_learnning$4_type_example.coverage" NAME="4-type-example Coverage Results" MODIFIED="1478162059447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/Python_learnning$import_example_2.coverage" NAME="import-example-2 Coverage Results" MODIFIED="1478157691600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/Python_learnning$6_compile_example.coverage" NAME="6-compile-example Coverage Results" MODIFIED="1478227819666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
     <SUITE FILE_PATH="coverage/Python_learnning$5_eval_example.coverage" NAME="5-eval-example Coverage Results" MODIFIED="1478162983907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_Simple_Factory.coverage" NAME="b_Simple_Factory Coverage Results" MODIFIED="1488448694212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Design_Pattern" />
     <SUITE FILE_PATH="coverage/Python_learnning$builtin_example_1.coverage" NAME="builtin-example-1 Coverage Results" MODIFIED="1478152532330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -30,7 +32,40 @@
     <favorites_list name="Python_learnning" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="a_Singleton_Pattern.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_Design_Pattern/a_Singleton_Pattern.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding>
+                <element signature="e#2946#2960#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b_Simple_Factory.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_Design_Pattern/b_Simple_Factory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="144" column="147" selection-start-line="144" selection-start-column="147" selection-end-line="144" selection-end-column="147" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a1_the_num_of_one.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/F_Interview_Test/a1_the_num_of_one.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4217687">
+              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,15 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/核心模块/__builtin__/builtin-example-1.py" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/builtin-example-1.py" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/apply-example-1.py" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/import-example-2.py" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/dir-example-3.py" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/4-type-example.py" />
-        <option value="$PROJECT_DIR$/book.md" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/5-eval-example.py" />
-        <option value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/6-compile-example.py" />
         <option value="$PROJECT_DIR$/算法实战/Sting_Question.py" />
         <option value="$PROJECT_DIR$/算法实战/String_Question_2.py" />
         <option value="$PROJECT_DIR$/算法实战/String_Question_1.py" />
@@ -73,14 +99,12 @@
         <option value="$PROJECT_DIR$/算法/EM算法.py" />
         <option value="$PROJECT_DIR$/C_Algorithm/c1_Algorithm_Theory/EM_Algorithm.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_String_Illustration.md" />
         <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/String_Question1.py" />
         <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/String_Question.py" />
         <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_String.py" />
         <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_String_Question.py" />
         <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/Linked List.py" />
         <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Linked_List_Question.py" />
-        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Linked_List_Illustration.md" />
         <option value="$PROJECT_DIR$/D_Data_Base/d2_MongoDB/d22_CRUD.py" />
         <option value="$PROJECT_DIR$/D_Data_Base/d2_MongoDB/d23_func.py" />
         <option value="$PROJECT_DIR$/D_Data_Base/d1_MySQL/d11_connection.py" />
@@ -96,6 +120,17 @@
         <option value="$PROJECT_DIR$/D_Data_Base/d4_Tornado/d41_Tornado_Star.py" />
         <option value="$PROJECT_DIR$/D_Data_Base/d1_MySQL/d12_MySQL_CRUD.py" />
         <option value="$PROJECT_DIR$/特别/2048.py" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c1_Algorithm_Theory/c11_Algorithm_Define.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_String_Illustration.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Linked_List_Illustration.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c23_Binary_Search.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c24_Huffman_Compression.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c25_Queue.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c26_Heap.md" />
+        <option value="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_Basics_Data_Structure.md" />
+        <option value="$PROJECT_DIR$/B_Design_Pattern/a_Singleton_Pattern.py" />
+        <option value="$PROJECT_DIR$/B_Design_Pattern/b_Simple_Factory.py" />
+        <option value="$PROJECT_DIR$/F_Interview_Test/a1_the_num_of_one.py" />
       </list>
     </option>
   </component>
@@ -105,10 +140,12 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -152,17 +189,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="F_Interview_Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
@@ -174,43 +224,7 @@
       <recent name="$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.filter">
-    <configuration default="false" name="4-type-example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_learnning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/4-type-example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="5-eval-example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_learnning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.核心模块/1.1.__builtin__/5-eval-example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.a1_the_num_of_one">
     <configuration default="false" name="6-compile-example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,6 +275,42 @@
       <module name="Python_learnning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image/PictureProcess/filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="b_Simple_Factory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B_Design_Pattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_Design_Pattern/b_Simple_Factory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="a1_the_num_of_one" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/F_Interview_Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/F_Interview_Test/a1_the_num_of_one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -474,19 +524,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.4-type-example" />
-      <item index="1" class="java.lang.String" itemvalue="Python.5-eval-example" />
-      <item index="2" class="java.lang.String" itemvalue="Python.6-compile-example" />
-      <item index="3" class="java.lang.String" itemvalue="Python.String_Question_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.filter" />
+      <item index="0" class="java.lang.String" itemvalue="Python.6-compile-example" />
+      <item index="1" class="java.lang.String" itemvalue="Python.String_Question_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.filter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.b_Simple_Factory" />
+      <item index="4" class="java.lang.String" itemvalue="Python.a1_the_num_of_one" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.filter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.String_Question_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6-compile-example" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5-eval-example" />
-        <item index="4" class="java.lang.String" itemvalue="Python.4-type-example" />
+        <item index="0" class="java.lang.String" itemvalue="Python.a1_the_num_of_one" />
+        <item index="1" class="java.lang.String" itemvalue="Python.b_Simple_Factory" />
+        <item index="2" class="java.lang.String" itemvalue="Python.filter" />
+        <item index="3" class="java.lang.String" itemvalue="Python.String_Question_1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.6-compile-example" />
       </list>
     </recent_temporary>
   </component>
@@ -504,27 +554,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="false" />
+    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28444085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27900147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2711111" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -541,6 +591,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -548,17 +604,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Linked_List_Illustration.md">
+    <entry file="file://$PROJECT_DIR$/B_Design_Pattern/a_Singleton_Pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2946#2960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/Binary Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Basics_Sorting.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
-            <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/Binary Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D_Data_Base/d2_MongoDB/d22_MongoDB_CRUD.py">
@@ -772,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/Binary Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7514794">
-          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -789,19 +862,6 @@
         </state>
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_String_Illustration.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.7246377">
-            <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
     </entry>
@@ -824,19 +884,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Linked_List_Illustration.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.9516908">
-            <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D_Data_Base/d1_MySQL/d11_MySQL_Start.py">
@@ -899,6 +946,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06804734">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c1_Algorithm_Theory/c11_Algorithm_Define.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.19261637">
+            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c21_Basics_Data_Structure.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-12.9165325">
+            <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/Binary Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Algorithm/c2_Algorithm_Question/c22_Basics_Sorting.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/abc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5123457">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/-730671433/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="775" column="8" selection-start-line="775" selection-start-column="8" selection-end-line="775" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Design_Pattern/a_Singleton_Pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#2946#2960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B_Design_Pattern/b_Simple_Factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="147" selection-start-line="144" selection-start-column="147" selection-end-line="144" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_Interview_Test/a1_the_num_of_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4217687">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
