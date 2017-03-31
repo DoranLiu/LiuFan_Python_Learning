@@ -44,9 +44,20 @@ Python里的原生字符串很好地解决了这个问题，这个例子中的�
 
 二、 介绍re模块
 
+• match(): 匹配字符串开始位置。
+• search(): 扫描字符串，找到第 个位置。 
+• findall(): 找到全部匹配，以列表返回。
+• finditer(): 找到全部匹配，以迭代器返回。
 
+match 和search 仅匹配一次，匹配不到返回None。
 
-
+- 编译标志
+• s: 单行。"." 匹配包括换 符在内的所有字符。
+• i: 忽略大小写。
+• L: 让 "\w" 能匹配当地字符，貌似对中  持不好。 
+• m:多行。
+• x: 忽略多余的空 字符，让表达式更易阅读。 
+• u: Unicode。
 
 
 
@@ -84,43 +95,7 @@ Pattern提供了几个可读属性用于获取表达式的相关信息：
 下面重点介绍一下pattern的实例方法及其使用。
 
 
-1.match
 
-match(string[, pos[, endpos]]) | re.match(pattern, string[, flags])：
-
-这个方法将从string的pos下标处起尝试匹配pattern；
-
-如果pattern结束时仍可匹配，则返回一个Match对象；
-
-如果匹配过程中pattern无法匹配，或者匹配未结束就已到达endpos，则返回None。
-
-pos和endpos的默认值分别为0和len(string)；
-
-re.match()无法指定这两个参数，参数flags用于编译pattern时指定匹配模式。
-
-注意：这个方法并不是完全匹配。
-
-当pattern结束时若string还有剩余字符，仍然视为成功。
-
-想要完全匹配，可以在表达式末尾加上边界匹配符'$'。
-
-下面来看一个Match的简单案例：
-
-1. # encoding: UTF-8  
-2. import re  
-3.    
-4. # 将正则表达式编译成Pattern对象  
-5. pattern = re.compile(r'hello')  
-6.    
-7. # 使用Pattern匹配文本，获得匹配结果，无法匹配时将返回None  
-8. match = pattern.match('hello world!')  
-9.    
-10. if match:  
-11.     # 使用Match获得分组信息  
-12.     print match.group()  
-13.    
-14. ### 输出 ###  
-15. # hello  
 
 
 
