@@ -137,3 +137,4 @@ class SQLite3(object):
                 ctx.sqlite3_db = self.connect()
                 return ctx.sqlite3_db
 # 在以上的代码中，我们每次使用数据库的时候通过 SQLite3.connection 获取数据库连接就可以了。SQLite3.connection保证了数据库连接只会发生一次，其原理和之前我们实现单例模式的方式相同，只不过这里存储实例的地方变成 flask._app_ctx_stack了。
+

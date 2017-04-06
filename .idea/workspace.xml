@@ -14,22 +14,32 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_re_Match.coverage" NAME="b_re_Match Coverage Results" MODIFIED="1490341638896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Sort.coverage" NAME="Sort Coverage Results" MODIFIED="1490937826321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a2_Sort" />
-    <SUITE FILE_PATH="coverage/Python_learnning$4_type_example.coverage" NAME="4-type-example Coverage Results" MODIFIED="1478162059447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Numpy_Array.coverage" NAME="a1_Numpy_Array Coverage Results" MODIFIED="1491024288275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E_Data_Process/a1_Numpy" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a5_Binary_Tree.coverage" NAME="a5_Binary_Tree Coverage Results" MODIFIED="1491377488234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/Python_learnning$6_compile_example.coverage" NAME="6-compile-example Coverage Results" MODIFIED="1478227819666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1490944491592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$c_re_Findall.coverage" NAME="c_re_Findall Coverage Results" MODIFIED="1490342878222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$.coverage" NAME="临时 Coverage Results" MODIFIED="1490765177620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Comparative_Performance.coverage" NAME="a1_Comparative_Performance Coverage Results" MODIFIED="1490944937971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$how_much_possible_of_unlock_phone.coverage" NAME="how_much_possible_of_unlock_phone Coverage Results" MODIFIED="1490928313435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/d_itertools" />
-    <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
-    <SUITE FILE_PATH="coverage/Python_learnning$5_eval_example.coverage" NAME="5-eval-example Coverage Results" MODIFIED="1478162983907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a6_BinHeap.coverage" NAME="a6_BinHeap Coverage Results" MODIFIED="1490947807269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/Python_learnning$builtin_example_1.coverage" NAME="builtin-example-1 Coverage Results" MODIFIED="1478152532330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a10_Linked_List.coverage" NAME="a10_Linked_List Coverage Results" MODIFIED="1491376927427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/Python_learnning$3_dir_example.coverage" NAME="3-dir-example Coverage Results" MODIFIED="1478160339031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/Python_learnning$import_example_2.coverage" NAME="import-example-2 Coverage Results" MODIFIED="1478157691600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Search.coverage" NAME="Search Coverage Results" MODIFIED="1490930783697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a1_Search" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Huffman_Compression.coverage" NAME="Huffman_Compression Coverage Results" MODIFIED="1491467637962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/c1_Algorithm_Theory" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a2_Stack.coverage" NAME="a2_Stack Coverage Results" MODIFIED="1490945967220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_re_Match.coverage" NAME="b_re_Match Coverage Results" MODIFIED="1490341638896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
+    <SUITE FILE_PATH="coverage/Python_learnning$4_type_example.coverage" NAME="4-type-example Coverage Results" MODIFIED="1478162059447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1490944491592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$c_re_Findall.coverage" NAME="c_re_Findall Coverage Results" MODIFIED="1490342878222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Comparative_Performance.coverage" NAME="a1_Comparative_Performance Coverage Results" MODIFIED="1490944937971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$how_much_possible_of_unlock_phone.coverage" NAME="how_much_possible_of_unlock_phone Coverage Results" MODIFIED="1490928313435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/d_itertools" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a3_Queue.coverage" NAME="a3_Queue Coverage Results" MODIFIED="1491471997472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
+    <SUITE FILE_PATH="coverage/Python_learnning$5_eval_example.coverage" NAME="5-eval-example Coverage Results" MODIFIED="1478162983907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a9_RedBlack_Tree.coverage" NAME="a9_RedBlack_Tree Coverage Results" MODIFIED="1490953708789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a2_Selection_Sort.coverage" NAME="a2_Selection_Sort Coverage Results" MODIFIED="1491016232002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a2_Sort" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a8_AVL_Tree.coverage" NAME="a8_AVL_Tree Coverage Results" MODIFIED="1490950090035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_Simple_Factory.coverage" NAME="b_Simple_Factory Coverage Results" MODIFIED="1488448694212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Design_Pattern" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -41,11 +51,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a1_Comparative_Performance.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a1_Comparative_Performance.py">
+      <file leaf-file-name="Heap.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Heap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7071006">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.86175114">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,26 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/A_Basic_Knowlege/a_Decorator.py" />
-        <option value="$PROJECT_DIR$/A_Basic_Knowlege/a_the_different_language.py" />
-        <option value="$PROJECT_DIR$/A_Basic_Knowlege/a_the_different_language.md" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/b_re/a_re_Compile.py" />
-        <option value="$PROJECT_DIR$/Other/Steganography.py" />
-        <option value="$PROJECT_DIR$/G_Interview_Test/a1_the_num_of_one.py" />
-        <option value="$PROJECT_DIR$/G_Interview_Test/a2_judgment_the_link_intersect.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/a_int.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/b_long.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/c_float.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/d_string.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/e_list.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/f_tuple.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/g_dict.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/h_set.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/i_counter.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/a.py" />
-        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/j_orderedDict.py" />
-        <option value="$PROJECT_DIR$/Other/steganography.py.1" />
-        <option value="$PROJECT_DIR$/A_Basic_Knowlege/__init__.py" />
         <option value="$PROJECT_DIR$/A_Basic_Knowlege/b_about_Python.md" />
         <option value="$PROJECT_DIR$/B_Kernel_Mode/a__builtin__/a12_import_example.py" />
         <option value="$PROJECT_DIR$/B_Kernel_Mode/a__builtin__/a17_path_example.py" />
@@ -103,14 +113,11 @@
         <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/Search_Note.md" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/Sort_note.md" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a1_Bubble_Sort.py" />
-        <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a2_Selection_Sort.py" />
-        <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a3_Insertion_Sort.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a4_Merge_Sort.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/Sort.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a5_Quick_Sort.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a6_Shell_Sort.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/a1_Sequential_Search.py" />
-        <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/a2_Binary_Search.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/Search.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/a3_Hash_Search.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a7_BinHeap_Search.py" />
@@ -118,6 +125,29 @@
         <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a9_Bucket_Sort.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a1.py" />
         <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a1_Comparative_Performance.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a4_Deque.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a6_BinHeap.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a7_Binary_Search_Tree.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a8_AVL_Tree.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a9_RedBlack_Tree.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/Algorithm.md" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a3_Insertion_Sort.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a2_Sort/a2_Selection_Sort.py" />
+        <option value="$PROJECT_DIR$/E_Data_Process/a1_Numpy/text.csv" />
+        <option value="$PROJECT_DIR$/E_Data_Process/__init__.py" />
+        <option value="$PROJECT_DIR$/E_Data_Process/a1_Numpy/a1_Numpy_Array.py" />
+        <option value="$PROJECT_DIR$/B_Kernel_Mode/e_Basic_Data_Structure/a1_String.py" />
+        <option value="$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/d_string.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a10_Linked_List.py" />
+        <option value="$PROJECT_DIR$/C_Design_Pattern/a_Singleton_Pattern.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/a2_Binary_Search.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a5_Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a1_Search/a1_Binary_Search_Tree.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/c1_Algorithm_Theory/Huffman_Compression.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a3_Queue.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a2_Stack.py" />
+        <option value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/Heap.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Data_Structures/Heap.py" />
       </list>
     </option>
   </component>
@@ -127,8 +157,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-363" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -155,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,7 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="D_Algorithm" />
+              <option name="myItemId" value="Algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,16 +230,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="D_Algorithm" />
+              <option name="myItemId" value="Algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a3_Data_Structures" />
+              <option name="myItemId" value="Data_Structures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,62 +262,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.a1_Comparative_Performance">
-    <configuration default="false" name="how_much_possible_of_unlock_phone" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.a3_Queue">
+    <configuration default="false" name="a1_Numpy_Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B_Kernel_Mode/d_itertools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/E_Data_Process/a1_Numpy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B_Kernel_Mode/d_itertools/how_much_possible_of_unlock_phone.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/E_Data_Process/a1_Numpy/a1_Numpy_Array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D_Algorithm/a1_Search" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a1_Search/Search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D_Algorithm/a2_Sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a2_Sort/Sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="a1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="a10_Linked_List" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -298,12 +294,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a10_Linked_List.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="a1_Comparative_Performance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="a5_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -316,7 +312,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a1_Comparative_Performance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a5_Binary_Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Huffman_Compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D_Algorithm/c1_Algorithm_Theory" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/c1_Algorithm_Theory/Huffman_Compression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="a3_Queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a3_Queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -530,19 +562,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.how_much_possible_of_unlock_phone" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Search" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Sort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.a1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.a1_Comparative_Performance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.a1_Numpy_Array" />
+      <item index="1" class="java.lang.String" itemvalue="Python.a10_Linked_List" />
+      <item index="2" class="java.lang.String" itemvalue="Python.a5_Binary_Tree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Huffman_Compression" />
+      <item index="4" class="java.lang.String" itemvalue="Python.a3_Queue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.a1_Comparative_Performance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.a1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Sort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Search" />
-        <item index="4" class="java.lang.String" itemvalue="Python.how_much_possible_of_unlock_phone" />
+        <item index="0" class="java.lang.String" itemvalue="Python.a3_Queue" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Huffman_Compression" />
+        <item index="2" class="java.lang.String" itemvalue="Python.a5_Binary_Tree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.a10_Linked_List" />
+        <item index="4" class="java.lang.String" itemvalue="Python.a1_Numpy_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -560,20 +592,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-363" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3101777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21086262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4474432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30995935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23295455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -630,231 +662,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Image/PictureProcess/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image/PictureProcess/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.2173913">
-            <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image/PictureProcess/filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27366865">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/serverDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/clientDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/2048.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06804734">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5123457">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/-730671433/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="775" column="8" selection-start-line="775" selection-start-column="8" selection-end-line="775" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/b_re/a_re_Compile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.0202703">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/G_Interview_Test/a1_the_num_of_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2837837">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/G_Interview_Test/a2_judgment_the_link_intersect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9797298">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/a_int.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2516269">
-          <caret line="264" column="8" selection-start-line="264" selection-start-column="8" selection-end-line="264" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/b_long.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06507592">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/c_float.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/d_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7418654">
-          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/e_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03253796">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/g_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03253796">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/f_tuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80477226">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/h_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03253796">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/i_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38177875">
-          <caret line="267" column="9" selection-start-line="267" selection-start-column="9" selection-end-line="267" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/c_TYPE/j_orderedDict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03253796">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A_Basic_Knowlege/a_the_different_language.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-0.33251232">
-            <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/steganography.py.1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048465267">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Other/Steganography.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A_Basic_Knowlege/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A_Basic_Knowlege/b_about_Python.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.71279764">
-            <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/a__builtin__/a16_compile_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/a__builtin__/a12_import_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/a__builtin__/a18_pkgutil_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58229816">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/a__builtin__/a17_path_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58229816">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -865,168 +676,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/b_re/c_re_Findall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4785021">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/b_re/b_re_Match.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3966713">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/b_re/re教程.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.022522522">
-            <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.18018018">
+          <first_editor vertical-scroll-proportion="0.18035427">
             <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/d_itertools/how_much_possible_of_unlock_phone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.829932">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/B_Kernel_Mode/d_itertools/itertools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5442177">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a1_Search/Search_Note.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.96498907">
-            <caret line="40" column="129" selection-start-line="40" selection-start-column="129" selection-end-line="40" selection-end-column="129" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a1_Bubble_Sort.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="620" column="28" selection-start-line="620" selection-start-column="28" selection-end-line="620" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a2_Selection_Sort.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/heapq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39940828">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a3_Insertion_Sort.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84319526">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a4_Merge_Sort.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75443786">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a6_Shell_Sort.py">
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Heap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.110946745">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a1_Search/a1_Sequential_Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33284023">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a1_Search/a2_Binary_Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42159763">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a1_Search/a3_Hash_Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8668639">
-          <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a7_BinHeap_Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.088757396">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a5_Quick_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8224852">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a2_Sort/a8_Counting_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2662722">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#403#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D_Algorithm/a3_Data_Structures/a1_Comparative_Performance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7071006">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.86175114">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>

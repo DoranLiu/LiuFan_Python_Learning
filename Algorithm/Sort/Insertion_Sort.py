@@ -4,6 +4,9 @@
 时间复杂度O(n^2)
 别误以为二分查找可以降低它的复杂度，因为插入排序还需要移动元素的操作
 '''
+from random import randrange
+
+# 迭代的方式
 def insertion_sort(a_list):
     for index in range(1, len(a_list)):
         current_value = a_list[index]
@@ -13,6 +16,7 @@ def insertion_sort(a_list):
             position = position - 1
         a_list[position] = current_value
 
+# 使用二分查找的插入排序
 def insertion_sort_binarysearch(a_list):
     for index in range(1, len(a_list)):
         current_value = a_list[index]
@@ -30,9 +34,22 @@ def insertion_sort_binarysearch(a_list):
             position = position -1
         a_list[position] = current_value
 
+# 递归版本的插入排序，但list的size不能过大，否则会栈溢出。
+def ins_sort_rec(seq, i):
+    if i == 0: return  # Base case -- do nothing
+    ins_sort_rec(seq, i - 1)  # Sort 0..i-1
+    j = i  # Start "walking" down
+    while j > 0 and seq[j - 1] > seq[j]:  # Look for OK spot
+        seq[j - 1], seq[j] = seq[j], seq[j - 1]  # Keep moving seq[j] down
+        j -= 1  # Decrement j
+
+
 
 a_list = [54, 26, 93, 15, 77, 31, 44, 55, 20]
 insertion_sort(a_list)
 print('insertion: ',a_list)
 insertion_sort_binarysearch(a_list)
 print('insertion_binary: ',a_list)
+
+a_list = [randrange(1000) for i in range(100)]
+ins_sort_rec(a_list, len(a_list)-1)
