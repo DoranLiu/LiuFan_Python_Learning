@@ -1,6 +1,33 @@
 '''
 5.快速排序(quick sort)：
 
+性能：
+时间复杂度 O(nlogn)
+空间复杂度O（logn）
+
+由于关键字的比较和交换是跳跃进行的，快速排序是一种不稳定的排序方法
+两个时间复杂度O(nlogn) 的排序算法都不稳定
+
+时间复杂度：
+最坏O（n^2） 当划分不均匀时候 逆序and排好序都是最坏情况
+最好O（n） 当划分均匀
+partition的时间复杂度: O（n）一共需要logn次partition
+
+空间复杂度：
+递归造成的栈空间的使用，
+最好情况，递归树的深度logn 空间复杂的logn，
+最坏情况，需要进行n‐1 递归调用，其空间复杂度为 O(n)，
+平均情况，空间复杂度也为O(log2n)。
+
+原理：
+快速排序的每一轮就是将这一轮的基准数归位，直到所有的数都归为为止，排序结束。（类似冒泡）.
+partition是返回一个基准值的index, index 左边都小于该index的数，右边都大于该index的数。
+
+快速排序之所比较快，因为相比冒泡排序，每次交换是跳跃式的。
+每次排序的时候设置一个基准点，将小于等于基准点的数全部放到基准点的左边，将大于等于基准点的数全部放到基准点的右边。
+这样在每次交换的时候就不会像冒泡排序一样每次只能在相邻的数之间进行交换，交换的距离就大的多了。因此总的比较和交换次数就少了，速度自然就提高了。
+当然在最坏的情况下，仍可能是相邻的两个数进行了交换。因此快速排序的最差时间复杂度和冒泡排序是一样的都是 O(n^2)，它的平均时间复杂度为 O(nlogn)。其实快速排序是基于 “二分” 的思想。
+
 想法一：它选择第一个元素作为主元，它同样可以按照下面提到的算法导论中将数组分成了4个不同的部分，但是这里其实有更好的解释方法。
 首先，它每次都是选择第一个元素都为主元，这个回合就是要确定主元的位置；
 然后，有两个指针，一个leftmark指向主元的后面一个位置，另一个rightmark指向要排序的数组最后一个元素；
@@ -59,6 +86,7 @@ print(a_list)
 而j一直都是指向大于主元的元素中最后一个的后面一个位置，所以i+1和j位置上的元素交换就可以使得j发现的这个小于主元的元素移动到第一部分，
 而i+1位置上大于主元的元素移动到j的位置上，即第二部分的最后一个位置上。
 '''
+
 def partition_2(a,low,high):
     key = a[high] # pivot
     i = low - 1 # temp
@@ -68,7 +96,7 @@ def partition_2(a,low,high):
             a[j],a[i] = a[i],a[j]
 
     a[high],a[i+1] = a[i+1],a[high] # i+1 is the split point
-    return  i+1
+    return i+1
 
 # quick sort
 def quick_sort2(a,low,high):
@@ -83,7 +111,7 @@ def print_array(a,leng):
         print(a[i])
         print('\n')
 
-a=[3,5,2,7,9,10,33,28,19,6,8]
+a = [3,5,2,7,9,10,33,28,19,6,8]
 quick_sort2(a, 0, 10)
 print_array(a,11)
 
@@ -94,4 +122,22 @@ print_array(a,11)
 # 另外，为了减少快排调用的栈深度可以使用模拟尾递归技术，通过对快排的修改可以保证最坏情况下栈深度为O(nlgn)，该内容可以参见算法导论习题7-4。
 
 
-
+# 直接实现：
+def quick_sort(ary):
+    return qsort(ary,0,len(ary)-1)
+def qsort(ary,left,right):
+    #快排函数，ary为待排序数组，left为待排序的左边界，right为右边界
+    if left >= right : return ary
+    key = ary[left]     #取最左边的为基准数
+    lp = left           #左指针
+    rp = right          #右指针
+    while lp < rp :
+        while ary[rp] >= key and lp < rp :
+            rp -= 1
+        while ary[lp] <= key and lp < rp :
+            lp += 1
+        ary[lp],ary[rp] = ary[rp],ary[lp]
+    ary[left],ary[lp] = ary[lp],ary[left]
+    qsort(ary,left,lp-1)
+    qsort(ary,rp+1,right)
+    return ary

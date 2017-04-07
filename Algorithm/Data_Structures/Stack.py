@@ -4,6 +4,7 @@
 Queue 和 Stack 在 Python 中都是有 list [] 实现的。
 '''
 
+# 类实现方法：
 class Stack:
     def __init__(self):
        self.items = []
@@ -19,14 +20,23 @@ class Stack:
        return len(self.items)
 
 s = Stack()
-print(s.is_empty())
+print('is_empty:',s.is_empty())
 s.push(4)
 s.push('dog')
-print(s.peek())
+print('peek:',s.peek())
 s.push(True)
-print(s.size())
-print(s.is_empty())
+print('size:',s.size())
+print('is_empty:',s.is_empty())
 s.push(8.4)
-print(s.pop())
-print(s.pop())
-print(s.size())
+print('pop:',s.pop())
+print('pop:',s.pop())
+print('size:',s.size())
+
+# list 实现方法：
+# list 可以很轻松实现stack，如果需要更高效的stack，可以使用deque
+stack = []
+print(len(stack)) # size of stack
+top = stack[-1] # 栈顶元素
+
+import collections
+stack = collections.deque()
