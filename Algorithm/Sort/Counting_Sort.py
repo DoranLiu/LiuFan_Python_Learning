@@ -23,6 +23,7 @@
 （2）遍历输入数组A中的元素，确定每个元素的出现的次数，并将A中第i个元素出现的次数存放在C[A[i]]中，然后C[i]=C[i]+C[i-1]，在C中确定A中每个元素前面有多个元素；
 （3）逆序遍历数组A中的元素，在C中查找A中出现的次数，并结果数组B中确定其位置，然后将其在C中对应的次数减少1。
 '''
+
 # 演示
 # https://www.cs.usfca.edu/~galles/visualization/CountingSort.html
 
