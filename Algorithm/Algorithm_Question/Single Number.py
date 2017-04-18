@@ -27,7 +27,7 @@ def singleNumber(self, nums):
         return 0
 
     result = 0
-    for i in xrange(32):
+    for i in range(32):
         bit_i_sum = 0
         for num in nums:
             bit_i_sum += ((num >> i) & 1)
@@ -90,7 +90,7 @@ Given n = 31, m = 14,return 2
 #比较两个数不同的比特位个数，显然容易想到可以使用异或处理两个整数，相同的位上为0，不同的位上为1，故接下来只需将异或后1的个数求出即可。容易想到的方法是移位后和1按位与得到最低位的结果，使用计数器记录这一结果，直至最后操作数为0时返回最终值。这种方法需要遍历元素的每一位，有咩有更为高效的做法呢？还记得之前做过的 O1 Check Power of 2 吗？x & (x - 1)既然可以检查2的整数次幂，那么如何才能进一步得到所有1的个数呢？——将异或得到的数分拆为若干个2的整数次幂，计算得到有多少个2的整数次幂即可。
 
 #以上的分析过程对于正数来说是毫无问题的，但问题就在于如果出现了负数如何破？不确定的时候就来个实例测测看，以-2为例，(-2) & (-2 - 1)的计算如下所示(简单起见这里以8位为准)：
- 11111110 <==> -2   -2 <==> 11111110
+ # 11111110 <==> -2   -2 <==> 11111110
 #+                          &
 # 11111111 <==> -1   -3 <==> 11111101
 #=                          =
@@ -160,7 +160,7 @@ def trailingZeroes(n):
     elif n < 0:
         return -1
     else:
-        return n / 5 + self.trailingZeroes(n / 5)
+        return n / 5 + trailingZeroes(n / 5)
 
 #源码分析
 #这里将负数输入视为异常，返回-1而不是0. 注意使用递归时务必注意收敛和终止条件的返回值。这里递归层数最多不超过 log5n\log_5 nlog​5​​n, 因此效率还是比较高的。
@@ -195,8 +195,8 @@ def numTrees(self, n):
 
     count = [0] * (n + 1)
     count[0] = 1
-    for i in xrange(1, n + 1):
-        for j in xrange(i):
+    for i in range(1, n + 1):
+        for j in range(i):
             count[i] += count[j] * count[i - j - 1]
 
     return count[n]
