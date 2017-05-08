@@ -38,7 +38,7 @@ def save_to_db(info_dict):
     db = pymysql.connect("localhost","root","123456","Spider_Data",charset='utf8')
     # db = pymysql.connect("192.168.1.231","root","3jw9lketj0","ConstructionMaterials",charset='utf8')
     cursor = db.cursor()
-    update_time = int(time.time())
+    update_time = time.ctime(time.time())
     url = 'http://www.baidu.com'
 
     proxies = {
@@ -54,14 +54,19 @@ def save_to_db(info_dict):
         rp = requests.get(url,headers=headers,proxies=proxies,timeout=10)
         if rp.status_code == 200:
             lock.acquire()
-            insert_sql = "INSERT INTO proxies_info(p_ip,p_port,p_type, p_protocol, p_country,p_updatetime,p_area,p_speed) VALUES ('{}',{},{},{},'{}',{},'{}','{}');".format(info_dict['ip'],info_dict['port'],info_dict['types'],info_dict['protocol'],info_dict['country'],update_time,info_dict['area'],info_dict['speed'])
-            try:
-                cursor.execute(insert_sql)
-                db.commit()
-                print(info_dict['ip'])
-            except:
-                print('db error')
-                db.rollback()
+            search_sql = "SELECT * FROM `proxies_info` WHERE p_ip = '{}' AND p_port = '{}';".format(info_dict['ip'],info_dict['port'])
+            cursor.execute(search_sql)
+            if len(cursor.fetchall()):
+                print(info_dict['ip'],'had')
+            else:
+                insert_sql = "INSERT INTO proxies_info(p_ip,p_port,p_updatetime,p_speed) VALUES ('{}',{},'{}','{}');".format(info_dict['ip'],info_dict['port'],update_time,info_dict['speed'])
+                try:
+                    cursor.execute(insert_sql)
+                    db.commit()
+                    print(info_dict['ip'],'-insert')
+                except:
+                    print('db error')
+                    db.rollback()
             lock.release()
     except:
         print(info_dict['ip'] ,'requests error')
@@ -139,6 +144,6 @@ def clean_handle():
     pool.join()
 
 if __name__ == "__main__":
-    # get_proxy_ip()
-    # time.sleep(2)
+    get_proxy_ip()
+    time.sleep(2)
     clean_handle()

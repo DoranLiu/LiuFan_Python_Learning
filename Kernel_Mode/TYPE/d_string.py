@@ -22,6 +22,65 @@ print(s2[4]) # 'n'
 s2.index('w')  # return 5, if not found, throw ValueError
 s2.find('w') # return 5, if not found, return -1”
 
+# 使用字符串的startswith()和endswith()方法
+import os, stat
+os.listdir('./')
+[name for name in os.listdir('./') if name.endswith(('.sh','.py'))]
+os.chmod('install.sh', os.stat('install.sh').st_mode | stat.S_IXUSR)
+
+# 连续使用split()方法，每次处理一种分隔符
+def mySplit(s,ds):
+    res = [s]
+    for d in ds:
+        t = []
+        map(lambda x: t.extend(x.split(d)), res)
+        res = t
+    return [x for x in res if x]
+s = 'asd;aad|dasd|dasd,sdasd|asd,,Adas|sdasd;Asdasd,d|asd'
+result = mySplit(s, ';,|\t')
+print(result)
+
+# 使用正则表达式re.sub()方法做字符串替换
+# 利用正则表达式的捕获组，捕获每个部分内容，在替换字符串中各个捕获组的顺序。
+log = '2016-09-15 18:27:26 statu unpacked python3-pip:all'
+import re
+# 按顺序
+re.sub('(\d{4})-(\d{2})-(\d{2})', r'\2/\3/\1' , log)
+'09/15/2016 18:27:26 statu unpacked python3-pip:all'
+# 使用正则表达式的分组
+re.sub('(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})', r'\g<month>/\g<day>/\g<year>' , log)
+'09/15/2016 18:27:26 statu unpacked python3-pip:all'
+
+# 使用str.join()方法，更加快速的拼接列表中所有字符串
+result = ''.join(["<0112>","<32>","<1024x768>","<60>","<1>","<100.0>","<500.0>"])
+
+# 使用字符串的str.ljust(),str.rjust,str.cente()进行左右居中对齐
+info = {'ip':'127.0.0.1','blog': 'www.ansheng.me','title': 'Hello world','port': '80'}
+# 获取字典中的keys最大长度
+w = max(map(len, info.keys()))
+for k in info:
+   print(k.ljust(w), ':',info[k])
+
+# 使用format()方法，传递类似'<20','>20','^20'参数完成同样任务
+for k in info:
+   print(format(k,'^'+str(w)), ':',info[k])
+
+# 获取到的结果
+'''
+port  : 80
+blog  : www.ansheng.me
+ip    : 127.0.0.1
+title : Hello world'''
+
+# 字符串translate()方法，可以同时删除多种不同字符
+import string
+s = 'abc123xyz'
+s.translate(string.maketrans('abcxyz','xyzabc'))
+'xyz123abc'
+s = '\rasd\t23\bAds'
+s.translate(None, '\r\t\b')
+'asd23Ads'
+
 
 '''---------------------------------------------------------------------------'''
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

@@ -1,106 +1,85 @@
-#项目分类及内容说明
+#目录：
 
-##A_Kernel_Mode
+##Algorithm
+1. Data_Structures
+    - Comparative Performance 内置结构的性能分析
+        - 1.算法复习
+        - 2.List
+        - 3.Dictionary
+    - Binary_Tree        二叉树
+    - Binary_Search_Tree 二叉搜索树
+    - Heap               堆
+    - BinHeap            二叉堆
+    - Deque              双向队列
+    - Linked_List        链表
+    - Queue              队列
+    - Stack              栈
+    - RedBlack_Tree      红黑树
+    - Graph              图
+    - AVL_Tree           AVL树
+    
+2. Sort
+    - Insertion_Sort 插入排序
+    - Selection_Sort 选择排序
+    - Merge_Sort     归并排序
+    - Bubble_Sort    冒泡排序
+    - Quick_Sort     快速排序
+    
+    - Counting_Sort  计数排序
+    - Radix_Sort     基数排序
+    
+3. Search
+    - Binary_Search_Tree 二叉树搜索
+    - Hash_Search        哈希搜索
+    - Sequential_Search  顺序搜索
+    
+4. Algorithm Theory
+    - s
+    
+5. Algorithm Question
+    - Knapsack  背包问题
+    - 
 
-##B_Design_Pattern
+## Basic_Knowlege
+## Data_Base
+1. MongoDB
+2. MySQL
+    - MySQL_Intrudation.py  MySQL介绍
+    - MySQL_Type.py         MySQl中的类型
+    - MySQL_InTable.py      MySQl表内操作
+    - MySQL_ForeignKey.py   MySQL外键
+    - MySQL_LinkTable.py    MySQL连表查询
+    - MySQL_Save.py         MySQL存储过程
+    - MySQL_View.py         MySQL视图
+    - MySQL_Delimiter.py    MySQL触发器
+    - MySQL_SQLInsert.py    MySQL的SQL注入
+    - MySQL_Start.py        MySQL的介绍
+    - MySQL_CRUD.py         MySQL的增删改查
+3. Redis
+4. SQLAlchemy
+5. Tornado
 
-##C_Algorithm
-###c1_Algorithm_Theory
+## Data_Process
+## Design_Pattern
+## Image
+## Interview_Test
+## Kernel_Mode
+1. Class_Object
+2. Decorator
+3. FIle_IO
+4. Model
+5. TYPE
+6. __Builtin__
 
-###c2_Algorithm_Question
-
-
-
-
-
-https://github.com/vinta/awesome-python
-https://github.com/jobbole/awesome-python-cn
-''''''
-os: 包含普遍的操作系统功能
-    https://pymotw.com/2/os/index.html#module-os
-
-subprocess： 系统命令执行模块，调用shell命令
-    https://pymotw.com/2/subprocess/index.html#module-subprocess
-    http://docs.python.org/2/library/subprocess.html
-
-argparse: 用来替代optparse的命令行解析库
-    https://pymotw.com/2/argparse/index.html#module-argparse
-    https://docs.python.org/3/library/argparse.html
-
-docopt: 用更直观的命令行解析库
-    https://github.com/docopt/docopt
-
-re：
-
-logging：
-
-
-
-
-itertools：
-    http://docs.python.org/2/library/itertools.html
-
-functools: 有一些非常有用的工具
-    https://pymotw.com/2/functools/index.html#module-functools
-    http://docs.python.org/2/library/functools.html
-
-
-glob： 文件名的shell模式匹配
-    https://pymotw.com/2/glob/index.html#module-glob
-
-multiprocessing： 多进程模块
-    https://pymotw.com/2/multiprocessing/index.html#module-multiprocessing
-
-Queue: 队列，用于多线程编程，它是一个线程安全的FIFO的队列实现。
-如果是多进程编程，选用multiprocessing.queues中的Queue、SimpleQueue、JoinableQueue这三个队列实现。
-    https://pymotw.com/2/Queue/index.html#module-Queue
-
-threading: 多线程编程
-    https://pymotw.com/2/threading/index.html#module-threading
-
-requests： 网络请求
-    https://pypi.python.org/pypi/requests
-
-urllib/urllib2/httplib
-
-pickle/cPickle 序列化工具
-
-hashlib md5, sha等hash算法
-
-cvs
-
-
-json/simplejson python的json库，据so上的讨论和benchmark，simplejson的性能要高于json
-
-timeit 计算代码运行的时间等等
-
-cProfile python性能测量模块
-
-glob 类似与listfile，可以用来查找文件
-
-
-
-    selenium https://pypi.python.org/pypi/selenium 浏览器自动化测试工具selenium的python 接口
-    lxml http://lxml.de/ python 解析html,xml 的神器
-    mechanize https://pypi.python.org/pypi/mechanize/ Stateful programmatic web browsing
-    pycurl https://pypi.python.org/pypi/pycurl cURL library module for Python
-    Fabric http://docs.fabfile.org/en/1.8/ Fabric is a Python (2.5 or higher) library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.
-    xmltodict https://github.com/martinblech/xmltodict xml 转 dict，真心好用
-    urllib3 和 requests: 当然其实requests就够了 Requests: HTTP for Humans
-    flask http://flask.pocoo.org/python web 微框架
-    ipdb 调试神器，同时推荐ipython！结合ipython使用
-    redis redis python接口
-    pymongo mongodbpython接口
-    PIL http://www.pythonware.com/products/pil/ python图像处理
-    mako http://www.makotemplates.org/ python模版引擎
-    numpy ， scipy 科学计算
-    matplotlib 画图
-    scrapy 爬虫
-    django/tornado/web.py/web2py/uliweb/flask/twisted/bottle/cherrypy.等等 python web框架/服务器
-    sh 1.08 — sh v1.08 documentation 用来运行shell 模块的 极佳选择
+## Other
+## Practice_Example
+## ProxiesPool
+## Socket
+## Spider_Crewl
+## ThreadDemo
+## Web
 
 
-
-https://github.com/vinta/awesome-python 几乎所有很赞的 python 库，和框架都在这个列表里。
-
-
+'''-----------------------------------------------------------------------------------------------------------------------------------------------------------------'''
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=XXXX=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+'''-----------------------------------------------------------------------------------------------------------------------------------------------------------------'''

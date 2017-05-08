@@ -17,49 +17,52 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Solution_Template.coverage" NAME="Solution_Template Coverage Results" MODIFIED="1491803130823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Algorithm_Question" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Sort.coverage" NAME="Sort Coverage Results" MODIFIED="1490937826321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a2_Sort" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Numpy_Array.coverage" NAME="a1_Numpy_Array Coverage Results" MODIFIED="1491024288275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E_Data_Process/a1_Numpy" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a5_Binary_Tree.coverage" NAME="a5_Binary_Tree Coverage Results" MODIFIED="1491377488234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Shuffle_Sampling.coverage" NAME="Shuffle_Sampling Coverage Results" MODIFIED="1492399188011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Algorithm_Theory" />
-    <SUITE FILE_PATH="coverage/Python_learnning$6_compile_example.coverage" NAME="6-compile-example Coverage Results" MODIFIED="1478227819666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$.coverage" NAME="临时 Coverage Results" MODIFIED="1490765177620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a6_BinHeap.coverage" NAME="a6_BinHeap Coverage Results" MODIFIED="1490947807269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Defin_Decorator_in_Class.coverage" NAME="Defin_Decorator_in_Class Coverage Results" MODIFIED="1493715383671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Send_SMS.coverage" NAME="Send_SMS Coverage Results" MODIFIED="1491977306770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
-    <SUITE FILE_PATH="coverage/Python_learnning$builtin_example_1.coverage" NAME="builtin-example-1 Coverage Results" MODIFIED="1478152532330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a10_Linked_List.coverage" NAME="a10_Linked_List Coverage Results" MODIFIED="1491376927427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/Python_learnning$3_dir_example.coverage" NAME="3-dir-example Coverage Results" MODIFIED="1478160339031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1491533337065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Data_Structures" />
-    <SUITE FILE_PATH="coverage/Python_learnning$import_example_2.coverage" NAME="import-example-2 Coverage Results" MODIFIED="1478157691600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Heap_Sort.coverage" NAME="Heap_Sort Coverage Results" MODIFIED="1491551030350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Iterator_Learn.coverage" NAME="Iterator_Learn Coverage Results" MODIFIED="1493718939209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Iterator" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Search.coverage" NAME="Search Coverage Results" MODIFIED="1490930783697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a1_Search" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$0000String_Split.coverage" NAME="0000String_Split Coverage Results" MODIFIED="1493719472932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Example" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Huffman_Compression.coverage" NAME="Huffman_Compression Coverage Results" MODIFIED="1491467637962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/c1_Algorithm_Theory" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Decorator_Revise_Para.coverage" NAME="Decorator_Revise_Para Coverage Results" MODIFIED="1493715259371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a2_Stack.coverage" NAME="a2_Stack Coverage Results" MODIFIED="1490945967220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_re_Match.coverage" NAME="b_re_Match Coverage Results" MODIFIED="1490341638896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
     <SUITE FILE_PATH="coverage/Python_learnning$4_type_example.coverage" NAME="4-type-example Coverage Results" MODIFIED="1478162059447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Phone_Calls.coverage" NAME="Phone_Calls Coverage Results" MODIFIED="1491977121745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$SQLAlchemy.coverage" NAME="SQLAlchemy Coverage Results" MODIFIED="1493262821844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Base" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1490944491592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Knapsack.coverage" NAME="Knapsack Coverage Results" MODIFIED="1491968729736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Algorithm_Question" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$c_re_Findall.coverage" NAME="c_re_Findall Coverage Results" MODIFIED="1490342878222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Comparative_Performance.coverage" NAME="a1_Comparative_Performance Coverage Results" MODIFIED="1490944937971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$how_much_possible_of_unlock_phone.coverage" NAME="how_much_possible_of_unlock_phone Coverage Results" MODIFIED="1490928313435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/d_itertools" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a3_Queue.coverage" NAME="a3_Queue Coverage Results" MODIFIED="1491471997472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Start.coverage" NAME="Start Coverage Results" MODIFIED="1493710878059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProxiesPool" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Start.coverage" NAME="Start Coverage Results" MODIFIED="1493881624057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProxiesPool" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$WR_XML.coverage" NAME="WR_XML Coverage Results" MODIFIED="1493716078333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/FIle_IO" />
-    <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Examination_Type.coverage" NAME="Examination_Type Coverage Results" MODIFIED="1493782858330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
     <SUITE FILE_PATH="coverage/Python_learnning$5_eval_example.coverage" NAME="5-eval-example Coverage Results" MODIFIED="1478162983907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a9_RedBlack_Tree.coverage" NAME="a9_RedBlack_Tree Coverage Results" MODIFIED="1490953708789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a2_Selection_Sort.coverage" NAME="a2_Selection_Sort Coverage Results" MODIFIED="1491016232002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a2_Sort" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a.coverage" NAME="a Coverage Results" MODIFIED="1493713225096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Defin_Func_with_Para.coverage" NAME="Defin_Func_with_Para Coverage Results" MODIFIED="1493714516794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Graph.coverage" NAME="Graph Coverage Results" MODIFIED="1491534293812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$ss.coverage" NAME="ss Coverage Results" MODIFIED="1492422112424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Knowlege" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Decorator_Save_Meta.coverage" NAME="Decorator_Save_Meta Coverage Results" MODIFIED="1493713518131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
-    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a8_AVL_Tree.coverage" NAME="a8_AVL_Tree Coverage Results" MODIFIED="1490950090035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_Simple_Factory.coverage" NAME="b_Simple_Factory Coverage Results" MODIFIED="1488448694212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Design_Pattern" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a5_Binary_Tree.coverage" NAME="a5_Binary_Tree Coverage Results" MODIFIED="1491377488234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Shuffle_Sampling.coverage" NAME="Shuffle_Sampling Coverage Results" MODIFIED="1492399188011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Algorithm_Theory" />
+    <SUITE FILE_PATH="coverage/Python_learnning$6_compile_example.coverage" NAME="6-compile-example Coverage Results" MODIFIED="1478227819666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/Python_learnning$builtin_example_1.coverage" NAME="builtin-example-1 Coverage Results" MODIFIED="1478152532330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1491533337065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Data_Structures" />
+    <SUITE FILE_PATH="coverage/Python_learnning$import_example_2.coverage" NAME="import-example-2 Coverage Results" MODIFIED="1478157691600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Heap_Sort.coverage" NAME="Heap_Sort Coverage Results" MODIFIED="1491551030350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Iterator_Learn.coverage" NAME="Iterator_Learn Coverage Results" MODIFIED="1493718939209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Iterator" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Search.coverage" NAME="Search Coverage Results" MODIFIED="1490930783697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a1_Search" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$0000String_Split.coverage" NAME="0000String_Split Coverage Results" MODIFIED="1493719472932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice_Example" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Decorator_Revise_Para.coverage" NAME="Decorator_Revise_Para Coverage Results" MODIFIED="1493715259371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a2_Stack.coverage" NAME="a2_Stack Coverage Results" MODIFIED="1490945967220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$c_re_Findall.coverage" NAME="c_re_Findall Coverage Results" MODIFIED="1490342878222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Comparative_Performance.coverage" NAME="a1_Comparative_Performance Coverage Results" MODIFIED="1490944937971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$how_much_possible_of_unlock_phone.coverage" NAME="how_much_possible_of_unlock_phone Coverage Results" MODIFIED="1490928313435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/d_itertools" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a3_Queue.coverage" NAME="a3_Queue Coverage Results" MODIFIED="1491471997472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Creat_Mange_Object.coverage" NAME="Creat_Mange_Object Coverage Results" MODIFIED="1493782528876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
+    <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a9_RedBlack_Tree.coverage" NAME="a9_RedBlack_Tree Coverage Results" MODIFIED="1490953708789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a8_AVL_Tree.coverage" NAME="a8_AVL_Tree Coverage Results" MODIFIED="1490950090035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Creat_Many_Instance.coverage" NAME="Creat_Many_Instance Coverage Results" MODIFIED="1493782268808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -70,54 +73,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Algorithm_README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_README.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
+      <file leaf-file-name="a_int.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Kernel_Mode/TYPE/a_int.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <first_editor vertical-scroll-proportion="0.5989583">
+                <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bubble_Sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Bubble_Sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shell_Sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Shell_Sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Start.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProxiesPool/Start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2874109">
-              <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-              <folding>
-                <marker date="1493710878000" expanded="true" signature="1675:1811" placeholder="INSERT INTO proxies_info... " />
-                <marker date="1493710878000" expanded="true" signature="3202:3243" placeholder="DELETE FROM " />
-                <marker date="1493710878000" expanded="true" signature="3549:3590" placeholder="DELETE FROM " />
-                <marker date="1493710878000" expanded="true" signature="4089:4115" placeholder="SELECT * FRO... proxies_info" />
-              </folding>
-            </state>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -137,50 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Theory/Math.py" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Question/Basics_Data_Structure.md" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Question/Single Number.py" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_README.md" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Theory/Code_genetic/8queens.py" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Theory/Code_genetic/binary_genetic.py" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Question/Knapsack.py" />
-        <option value="$PROJECT_DIR$/Other/SMS.py" />
-        <option value="$PROJECT_DIR$/Other/Send_SMS.py" />
-        <option value="$PROJECT_DIR$/Other/Phone_Calls.py" />
-        <option value="$PROJECT_DIR$/Other/Image2String.py" />
-        <option value="$PROJECT_DIR$/Algorithm/Algorithm_Theory/Shuffle_Sampling.py" />
-        <option value="$PROJECT_DIR$/Socket/chat_client.py" />
-        <option value="$PROJECT_DIR$/Socket/SocketDemo.py" />
-        <option value="$PROJECT_DIR$/Socket/file_service.py" />
-        <option value="$PROJECT_DIR$/Socket/file_client.py" />
-        <option value="$PROJECT_DIR$/Socket/chat_service.py" />
-        <option value="$PROJECT_DIR$/Socket/IO_Multiplexing.py" />
-        <option value="$PROJECT_DIR$/Basic_Knowlege/Thread_Process.py" />
-        <option value="$PROJECT_DIR$/Basic_Knowlege/Association.py" />
-        <option value="$PROJECT_DIR$/Basic_Knowlege/ss.py" />
-        <option value="$PROJECT_DIR$/Web/wsgiref.py" />
-        <option value="$PROJECT_DIR$/Spider_Crewl/Selenium_Use.py" />
-        <option value="$PROJECT_DIR$/Spider_Crewl/Selenium_Chrome.py" />
-        <option value="$PROJECT_DIR$/Spider_Crewl/Selenium_PhantomJS.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/CreatDataTable.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Delete.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Update.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Select.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Add.py" />
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_CreatTable.py" />
-        <option value="$PROJECT_DIR$/ProxiesPool/Start.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_Save_Meta.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/Defin_Func_with_Para.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/a.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_Revise_Para.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_learn.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/__init__.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/mylog2.log" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/mylog1.log" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/Decorator/Defin_Decorator_in_Class.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/FIle_IO/__init__.py" />
-        <option value="$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_CSV.py" />
         <option value="$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_JSON.py" />
         <option value="$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_XML.py" />
         <option value="$PROJECT_DIR$/Kernel_Mode/FIle_IO/File_EXCEL.py" />
@@ -188,6 +122,50 @@
         <option value="$PROJECT_DIR$/Kernel_Mode/Iterator/__init__.py" />
         <option value="$PROJECT_DIR$/Kernel_Mode/Iterator/Iterator_Learn.py" />
         <option value="$PROJECT_DIR$/Practice_Example/0000String_Split.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/TYPE/d_string.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_New_Type.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Many_Instance.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Object_Context.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Mange_Object.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Class_Compare.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Examination_Type.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/RAM_Mange.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Use_Func_By_String.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Data_Structures/Stack.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Data_Structures/Queue.py" />
+        <option value="$PROJECT_DIR$/ProxiesPool/PP_Config.py" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/config.py" />
+        <option value="$PROJECT_DIR$/ProxiesPool/Start.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/OS_Model.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/SYS_Model.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/JSON.py" />
+        <option value="$PROJECT_DIR$/Spider_Crewl/Selenium_Chrome.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/XML_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Time_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/DateTime_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Configparser.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Configparser_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Subprocess_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Shutil_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/ZipFile_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Tarfile_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Random_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Hashlib_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Logging_Learn.html" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Logging_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Paramiko_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Memcache_Learn.py" />
+        <option value="$PROJECT_DIR$/Kernel_Mode/Model/Redis_Learn.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_Type.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_InTable.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_ForeignKey.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_LinkTable.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_Save.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_View.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_Delimiter.py" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_Intrudation.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Data_Base/MySQL/MySQL_SQLInsert.py" />
       </list>
     </option>
   </component>
@@ -197,8 +175,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="248" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,8 +223,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spider_Crewl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kernel_Mode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -257,93 +311,21 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Dery/WorkSpace/Python/LiuFan_Python_Learning/B_Kernel_Mode/b_re/re教程.md" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ProxiesPool" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data_Base/Redis" />
+      <recent name="$PROJECT_DIR$/Kernel_Mode/Model" />
       <recent name="$PROJECT_DIR$/Algorithm/Algorithm_Theory" />
       <recent name="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting" />
       <recent name="$PROJECT_DIR$/A_Basic_Knowlege" />
-      <recent name="$PROJECT_DIR$/E_Practice_Example" />
-      <recent name="$PROJECT_DIR$/Other" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.0000String_Split">
-    <configuration default="false" name="Decorator_Revise_Para" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/Decorator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_Revise_Para.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Defin_Decorator_in_Class" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/Decorator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/Decorator/Defin_Decorator_in_Class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WR_XML" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/FIle_IO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_XML.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Iterator_Learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/Iterator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/Iterator/Iterator_Learn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Start">
     <configuration default="false" name="0000String_Split" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,6 +340,78 @@
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practice_Example/0000String_Split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProxiesPool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProxiesPool/Start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Creat_Many_Instance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Many_Instance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Creat_Mange_Object" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Mange_Object.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Examination_Type" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kernel_Mode/Class_Object/Examination_Type.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -571,19 +625,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Decorator_Revise_Para" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Defin_Decorator_in_Class" />
-      <item index="2" class="java.lang.String" itemvalue="Python.WR_XML" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Iterator_Learn" />
-      <item index="4" class="java.lang.String" itemvalue="Python.0000String_Split" />
+      <item index="0" class="java.lang.String" itemvalue="Python.0000String_Split" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Start" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Creat_Many_Instance" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Creat_Mange_Object" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Examination_Type" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.0000String_Split" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Iterator_Learn" />
-        <item index="2" class="java.lang.String" itemvalue="Python.WR_XML" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Defin_Decorator_in_Class" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Decorator_Revise_Para" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Start" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Examination_Type" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Creat_Mange_Object" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Creat_Many_Instance" />
+        <item index="4" class="java.lang.String" itemvalue="Python.0000String_Split" />
       </list>
     </recent_temporary>
   </component>
@@ -601,18 +655,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="false" />
+    <frame x="248" y="-1057" width="1276" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18901454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2471637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3622159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23272358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23069106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -671,353 +725,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Quick_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90585774">
-          <caret line="142" column="14" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Search/Sequential_Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_Question/Binary Search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_Question/Integer Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_Question/Linked_List_Question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_Question/Single Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4665272">
-          <caret line="153" column="15" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/Phone_Calls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5660377">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/Send_SMS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25345623">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_Question/Knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="23" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/Image2String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55473375">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_Theory/Shuffle_Sampling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/SocketDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24672489">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/file_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/chat_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/chat_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5414847">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/file_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Socket/IO_Multiplexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Thread_Process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93449783">
-          <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Association.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2677515">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69213974">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-2.8709676">
-            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider_Crewl/Selenium_Chrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider_Crewl/Selenium_PhantomJS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19970414">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/wsgiref.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.080786">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8362445">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_CreatTable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4737991">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27729258">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Base/SQLAlchemy/SQLAlchemy_Select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.275109">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Bubble_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Shell_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/argparse_learn/argparse_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_Save_Meta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82185274">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/Defin_Func_with_Para.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82185274">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_Revise_Para.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#214#241#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="95" selection-start-line="0" selection-start-column="95" selection-end-line="0" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/Decorator_learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07125891">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/mylog2.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21377672">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/mylog1.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28266034">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Decorator/Defin_Decorator_in_Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.81710213">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#191#205#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/FIle_IO/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="132" selection-start-line="0" selection-start-column="132" selection-end-line="0" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_JSON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60570073">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_CSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7862233">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kernel_Mode/FIle_IO/WR_XML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0332541">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#50#61#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,41 +743,396 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7862233">
           <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-          <folding>
-            <element signature="e#782#793#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Iterator/__init__.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9144893">
+          <caret line="831" column="8" selection-start-line="831" selection-start-column="8" selection-end-line="831" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/TYPE/d_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2677515">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_New_Type.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="117" selection-start-line="0" selection-start-column="117" selection-end-line="0" selection-end-column="117" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Object_Context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Mange_Object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Many_Instance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35785288">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Class_Compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Examination_Type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.582505">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/RAM_Mange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Use_Func_By_String.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.640159">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.08552632">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24556214">
+          <caret line="193" column="3" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="732" column="28" selection-start-line="732" selection-start-column="28" selection-end-line="732" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Iterator_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8668639">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Iterator/Iterator_Learn.py">
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Itertools/itertools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8574822">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
-          <folding>
-            <element signature="e#378#393#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Itertools/how_much_possible_of_unlock_phone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/OS_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57840234">
+          <caret line="71" column="172" selection-start-line="71" selection-start-column="172" selection-end-line="71" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/SYS_Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7781065">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/JSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75591713">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider_Crewl/Selenium_Chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16640253">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProxiesPool/Start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2874109">
-          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1493710878000" expanded="true" signature="1675:1811" placeholder="INSERT INTO proxies_info... " />
-            <marker date="1493710878000" expanded="true" signature="3202:3243" placeholder="DELETE FROM " />
-            <marker date="1493710878000" expanded="true" signature="3549:3590" placeholder="DELETE FROM " />
-            <marker date="1493710878000" expanded="true" signature="4089:4115" placeholder="SELECT * FRO... proxies_info" />
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1493965644000" expanded="true" signature="1682:1746" placeholder="SELECT * FRO... proxies_info" />
+            <marker date="1493965644000" expanded="true" signature="1962:2047" placeholder="INSERT INTO proxies_info... " />
+            <marker date="1493965644000" expanded="true" signature="3396:3437" placeholder="DELETE FROM " />
+            <marker date="1493965644000" expanded="true" signature="3743:3784" placeholder="DELETE FROM " />
+            <marker date="1493965644000" expanded="true" signature="4283:4309" placeholder="SELECT * FRO... proxies_info" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Time_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02377179">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/DateTime_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04754358">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Configparser_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Subprocess_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9049128">
+          <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Shutil_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="202" column="56" selection-start-line="202" selection-start-column="56" selection-end-line="202" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/ZipFile_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <marker date="1494229566000" expanded="false" signature="237:265" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Tarfile_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <marker date="1494229596000" expanded="false" signature="993:1021" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/XML_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1494226083000" expanded="false" signature="5650:5709" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Random_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Hashlib_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Logging_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85736924">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Paramiko_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85736924">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Model/Memcache_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6909667">
+          <caret line="386" column="27" selection-start-line="386" selection-start-column="27" selection-end-line="386" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/Redis/Redis_Learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1020" column="26" selection-start-line="1020" selection-start-column="26" selection-end-line="1020" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.9114583">
+            <caret line="35" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kernel_Mode/TYPE/a_int.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_Type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7385103">
+          <caret line="184" column="8" selection-start-line="184" selection-start-column="8" selection-end-line="184" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_InTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="168" column="52" selection-start-line="168" selection-start-column="52" selection-end-line="168" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_LinkTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="209" column="24" selection-start-line="209" selection-start-column="24" selection-end-line="209" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_ForeignKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49920762">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_Save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_View.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6418384">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_Delimiter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="98" column="94" selection-start-line="98" selection-start-column="94" selection-end-line="98" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_Intrudation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02377179">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MySQL_SQLInsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9524564">
+          <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.5989583">
+            <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

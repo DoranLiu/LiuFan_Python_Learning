@@ -1,1 +1,0 @@
-'https://blog.ansheng.me/article/advanced-python-intensive-training-of-object-iteration-and-anti-iterative-technique/'
