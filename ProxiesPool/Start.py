@@ -144,6 +144,6 @@ def clean_handle():
     pool.join()
 
 if __name__ == "__main__":
-    get_proxy_ip()
-    time.sleep(2)
+    # get_proxy_ip()
+    # time.sleep(2)
     clean_handle()

@@ -12,13 +12,7 @@ ip，端口，类型(0高匿名，1透明)，protocol(0 http,1 https),country(�
  speed(连接速度)
 '''
 parserList = [
-    {
-        'urls': ['http://www.66ip.cn/%s.html' % n for n in ['index'] + list(range(2, 12))],
-        'type': 'xpath',
-        'encode':'gb2312',
-        'pattern': ".//*[@id='main']/div/div[1]/table/tr[position()>1]",
-        'position': {'ip': './td[1]', 'port': './td[2]', 'type': './td[4]', 'protocol': ''}
-    },
+
     {
         'urls': ['http://www.66ip.cn/areaindex_%s/%s.html' % (m, n) for m in range(1, 35) for n in range(1, 10)],
         'type': 'xpath',
@@ -103,7 +97,14 @@ parserList = [
         'moduleName': 'CnproxyPraser',
         'pattern': r'<tr><td>(\d+\.\d+\.\d+\.\d+)<SCRIPT type=text/javascript>document.write\(\"\:\"(.+)\)</SCRIPT></td><td>(HTTP|SOCKS4)\s*',
         'position': {'ip': 0, 'port': 1, 'type': -1, 'protocol': 2}
-    }
+    },
+    {
+        'urls': ['http://www.66ip.cn/%s.html' % n for n in ['index'] + list(range(2, 12))],
+        'type': 'xpath',
+        'encode':'gb2312',
+        'pattern': ".//*[@id='main']/div/div[1]/table/tr[position()>1]",
+        'position': {'ip': './td[1]', 'port': './td[2]', 'type': './td[4]', 'protocol': ''}
+    },
 ]
 '''
 数据库的配置
