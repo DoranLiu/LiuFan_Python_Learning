@@ -1,0 +1,2647 @@
+phantomjs API 中文版 无界面浏览器 js处理的爬虫
+
+发表于2016-08-11
+遇到的项目已经需要大量的解析js，并且防爬虫十分厉害，加入js的说明文档继续处理
+
+
+Phantomjs API 中文版
+
+
+Command Line Interface 命令行接口(暂时适用于1.8版本)
+
+
+
+
+执行脚本
+
+phantomjs [options] somescript.js [arg1 [arg2 […]]]
+
+如果后面没有任何参数, phantomjs将会进入交互模式
+
+
+
+Command-line Options 命令行参数
+–help or -h
+
+lists all possible command-line options. Halts immediately, will not run a script passed as argument.
+
+列出所有的命令行选项.不执行之后的脚本文件.
+
+–version or -v
+
+prints out the version of PhantomJS. Halts immediately, will not run a script passed as argument.
+
+打印出其版本.不执行之后的脚本文件.
+
+–cookies-file=/path/to/cookies.txt
+
+specifies the file name to store the persistent Cookies.
+
+指定持久储存cookies的文件.
+
+–disk-cache=[true|false]
+
+enables disk cache (at desktop services cache storage location, default is false). Also accepted: [yes|no].
+
+启用磁盘高速缓存(在桌面服务缓存的存储位置,默认为false)也可接收[yes][no]
+
+–ignore-ssl-errors=[true|false]
+
+ignores SSL errors, such as expired or self-signed certificate errors (default is false). Also accepted: [yes|no].
+
+忽略SSL错误，比如过期或自签名的证书错误。（默认为false）也可接收[yes][no]
+
+–load-images=[true|false]
+
+load all inlined images (default is true). Also accepted: [yes|no].
+
+加载所有图片。（默认为true）也可接收[yes][no]
+
+–local-storage-path=/some/path
+
+path to save LocalStorage content and WebSQL content.
+
+储存LocalStorage和WebSQL内容的文件路径。
+
+–local-storage-quota=number
+
+maximum size to allow for data.
+
+允许数据的最大长度。
+
+–local-to-remote-url-access=[true|false]
+
+allows local content to access remote URL (default is false). Also accepted: [yes|no].
+
+允许本地内容访问远程URL，默认为false。也可接收[yes][no]。
+
+–max-disk-cache-size=size
+
+limits the size of disk cache (in KB).
+
+限制磁盘缓存大小（单位为kb）。
+
+–output-encoding=encoding
+
+sets the encoding used for terminal output (default is utf8).
+
+设置终端输出编码格式（默认为utf-8）
+
+–remote-debugger-port
+
+starts the script in a debug harness and listens on the specified port
+
+调试脚本端口
+
+–remote-debugger-autorun
+
+runs the script in the debugger immediately: ‘yes’ or ‘no’ (default)
+
+在debugger时候立刻运行脚本
+
+–proxy=address:port
+
+specifies the proxy server to use (e.g. –proxy=192.168.1.42:8080).
+
+指定要使用的代理服务器。
+
+–proxy-type=[http|socks5|none]
+
+specifies the type of the proxy server (default is http).
+
+指定代理服务器类型（默认http）
+
+–proxy-auth
+
+specifies the authentication information for the proxy, e.g. –proxy-auth=username:password).
+
+指定代理的认证信息
+
+–script-encoding=encoding
+
+sets the encoding used for the starting script (default is utf8).
+
+设置脚本的启动编码（默认utf-8）
+
+–ssl-protocol=[sslv3|sslv2|tlsv1|any’]
+
+ sets the SSL protocol for secure connections (default is SSLv3).
+
+为安全连接建立SSL协议（默认SSLv3）
+
+–ssl-certificates-path=<val>
+
+Sets the location for custom CA certificates (if none set, uses system default).
+
+设置自定义CA证书的位置（设置为空则使用系统默认）
+
+–web-security=[true|false]
+
+enables web security and forbids cross-domain XHR (default is true). Also accepted: [yes|no].
+
+开启网络安全，并禁止跨域XHR（默认开启）也可接收[yes][no]。
+
+–webdriver（暂未翻译）
+
+starts in ‘Remote WebDriver mode’ (embedded GhostDriver): ‘[[:]]’ (default ‘127.0.0.1:8910’)
+
+
+
+–webdriver-selenium-grid-hub （暂未翻译）
+
+URL to the Selenium Grid HUB: ‘URLTOHUB’ (default ‘none’) (NOTE: works only together with ‘–webdriver’)
+
+
+
+自从1.3版本，可以新建一个json文件，将以上配置写入其中，并以这个配置文件启动：
+
+–config=/path/to/config.json
+
+请注意：这个json文件中上述选项写法略有所不同：去掉所有的虚线，并且按照驼峰命名法来书写。并且部分选项名称有所变化。见下例：
+
+{
+
+/* Same as: –ignore-ssl-errors=true */
+
+“ignoreSslErrors”: true,
+
+
+
+/* Same as: –max-disk-cache-size=1000 */
+
+“maxDiskCacheSize”: 1000,
+
+
+
+/* Same as: –output-encoding=utf8 */
+
+“outputEncoding”: “utf8”
+
+
+
+/* etc. */
+
+}
+
+
+
+未直接翻译的选项名称：
+
+
+
+* –disk-cache => diskCacheEnabled
+
+* –load-images => autoLoadImages
+
+* –local-storage-path => offlineStoragePath
+
+* –local-storage-quota => offlineStorageDefaultQuota
+
+* –local-to-remote-url-access => localToRemoteUrlAccessEnabled
+
+* –web-security => webSecurityEnabled
+
+
+
+phantom Object  phantom 对象
+phantom.cookies {Object[]}
+Get or set Cookies for any domain (though, for setting, use of phantom.addCookie is preferred). These Cookies are stored in the CookieJar and will be supplied when opening pertinent WebPages.
+
+设置或获取cookies。（用于设置时，其值会被phantom.addCookie设置的值覆盖）。Cookies储存在CookieJar中，在打开相关页面时被使用。
+
+This array will be pre-populated by any existing Cookie data stored in the cookie file specified in the PhantomJS startup config/command-line options, if any.
+
+这个数列将被在config文件或是命令行中设定的cookie文件数据预填充。
+
+phantom.cookiesEnabled {Boolean}
+Controls whether the CookieJar is enabled or not. Defaults to true.
+
+控制CookieJar是否开启。默认true。
+
+phantom.libraryPath {String}
+This property stores the path which is used by injectJs function to resolve the script name. Initially it is set to the location of the script invoked by PhantomJS.
+
+储存injectJs函数注入脚本时的位置。最初BALABALA……（没用了）。
+
+phantom.version {Object}
+Read-only. The version of the executing PhantomJS instance. Example value: { ‘major’: 1, ‘minor’: 7, ‘patch’: 0 }.
+
+只读。执行phantomJs实例的版本。
+
+addCookie(Object) {Boolean}
+Add a Cookie to the CookieJar. Returns true if successfully added, otherwise false.
+
+在CookJar中加入一个Cookie。成功返回true，否则返回false。
+
+phantom.addCookie({
+
+  ‘name’: ‘Added-Cookie-Name’,
+
+  ‘value’: ‘Added-Cookie-Value’,
+
+  ‘domain’: ‘.google.com’
+
+});
+
+clearCookies() {void}
+Delete all Cookies in the CookieJar.
+
+删除CookieJar中的Cookies。
+
+deleteCookie(cookieName) {Boolean}
+Delete any Cookies in the CookieJar with a ‘name’ property matching cookieName. Returns true if successfully deleted, otherwise false.
+
+删除与名称相配的Cookies。成功返回true，否则返回false。
+
+phantom.exit(returnValue) {void}
+Exits the program with the specified return value. If no return value is specified, it is set to 0.
+
+带有指定返回值的结束程序。默认为0.
+
+if (somethingIsWrong) {
+
+  phantom.exit(1);
+
+} else {
+
+  phantom.exit(0);
+
+}
+
+phantom.injectJs(filename) {boolean}
+Injects external script code from the specified file into the Phantom outer space. If the file cannot be found in the current directory, libraryPath is used for additional look up. This function returns true if injection is successful, otherwise it returns false.
+
+从Phantom外部空间注入指定文件的脚本代码。如果当前目录下未发现，将从libraryPath指定的位置查找。注入成功返回true，失败返回false。
+
+var wasSuccessful = phantom.injectJs(‘lib/utils.js’);
+
+page.onError
+This callback is invoked when there is a JavaScript execution error not caught by a page.onError handler. This is the closest it gets to having a global error handler in PhantomJS, and so it is a best practice to set this onError handler up in order to catch any unexpected problems. The arguments passed to the callback are the error message and the stack trace [as an Array].
+
+当页面有未能处理的脚本错误时调用这个回调函数。这个函数最先得到phantomJs中处理的全局错误，所以最好的方法是设置出错处理程序以捕捉任何意想不到的问题。传递的参数是错误消息和堆栈追踪（其为一个数组）。
+
+phantom.onError = function(msg, trace) {
+
+  var msgStack = [‘PHANTOM ERROR: ‘ + msg];
+
+  if (trace && trace.length) {
+
+    msgStack.push(‘TRACE:’);
+
+    trace.forEach(function(t) {
+
+      msgStack.push(‘ -> ‘ + (t.file || t.sourceURL) + ‘: ‘ + t.line + (t.function ? ‘ (in function ‘ + t.function +’)’ : ”));
+
+    });
+
+  }
+
+  console.error(msgStack.join(‘\n’));
+
+  phantom.exit(1);
+
+};
+
+
+
+Web Page Module Web页面模块
+To start using, you must require a reference to the webpage module then use it to create an instance:
+
+开始使用之前，你必须请求一个webpage 模块的引用，并创造一个实例：
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+canGoBack
+canGoForward
+clipRect {object}
+This property defines the rectangular area of the web page to be rasterized when page.render is invoked. If no clipping rectangle is set, page.render will process the entire web page.
+
+这个属性定义了一个网页的矩形裁剪区域。供page.render函数调用。如果没有设置裁剪区域，page.render将处理整个网页。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.clipRect = {
+
+  top: 14,
+
+  left: 3,
+
+  width: 400,
+
+  height: 300
+
+};
+
+content {string}
+This property stores the content of the web page (main frame), enclosed in an HTML/XML element. Setting the property will effectively reload the web page with the new content.
+
+See also page.plainText to get the content without any HTML tags.
+
+此属性存储网页的内容（主要frame），包裹在一个HTML/XML元素中。设置这个属性将有效地以新内容重新加载网页。
+
+Page.plainText将获得没有HTML标签的内容。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.open(‘http://phantomjs.org’, function (status) {
+
+  var content = page.content;
+
+  console.log(‘Content: ‘ + content);
+
+  phantom.exit();
+
+});
+
+Cookies
+Get or set Cookies visible to the current URL (though, for setting, use of page.addCookie is preferred). This array will be pre-populated by any existing Cookie data visible to this URL that is stored in the CookieJar, if any.
+
+对当前URL设置Cookie可见或获取之，（然而就设置而言更推荐使用page.addcookie）。如果cookieJar中有cookie，并且对此URL可见，那么这些cookie数据将会预加载。
+
+Cookies is an array of objects: javascript { domain: ‘example.com’, expires: ‘Sat Oct 11 2014 21:44:33 GMT+0200 (CEST)’, expiry: 1476128618, httponly: false, name: ‘cookieName’, path: ‘/’, secure: false, value: cookieValue }
+
+customHeaders {object}
+This property specifies additional HTTP request headers that will be sent to the server for every request issued (for pages and resources). The default value is an empty object {}. Headers names and values get encoded in US-ASCII before being sent. Please note that the ‘User-Agent’ should be set using the page.settings, setting the ‘User-Agent’ property in this property will overwrite the value set via page.settings.
+
+这个属性为每一个发出的请求指定额外的发送到服务器HTTP请求头（页面和资源）。默认值是一个空对象{}。Headers发送之前会用US_ASCII码编码。请注意：’User-Agent’应该使用page.settings来设置;如果设置’User-Agent’属性，则通过page.settings设置的属性将被重写。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.customHeaders = {
+
+  “X-Test”: “foo”,
+
+  “DNT”: “1”
+
+};
+
+Do you only want these customHeaders passed to the initial page.open request?
+
+你只想让这些headers只传递到初始page.open请求吗？
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.customHeaders = {
+
+  “X-Test”: “foo”,
+
+  “DNT”: “1”
+
+};
+
+page.onInitialized = function() {
+
+  page.customHeaders = {};
+
+};
+
+Event
+focusedFrameName
+frameContent {string}
+This property stores the content of the web page’s currently active frame (which may or may not be the main frame), enclosed in an HTML/XML element.
+
+
+
+Setting the property will effectively reload the web page with the new content.
+
+此属性存储页面当前活动的frame内容（这可能不是主要frame），包裹在一个html/xml元素中。
+
+设置这个属性将会用新的内容有效地重新加载网页。
+
+frameName
+framePlainText {string}
+Read-only. This property stores the content of the web page’s currently active frame (which may or may not be the main frame) as plain text — no element tags!
+
+只读。这个属性存储页面当前活动的frame内容（这可能不是主要框架）——纯文本，没有元素标签。
+
+frameTitle
+frameUrl {string}
+Read-only. This property gets the current URL of the web page’s currently active frame (which may or may not be the main frame).
+
+只读。此属性获取当前Web页面活动frame的URL，（这个frame可能不是主要的frame）
+
+framesCount
+framesName
+Returns array with frames names.
+
+返回frame名称组成的数组。
+
+libraryPath {string}
+This property stores the path which is used by page.injectJs function to resolve the script name.
+
+Initially it is set to the location of the script invoked by PhantomJS.
+
+此属性存储由page.injectjs函数调用脚本的路径名。最初balabala……
+
+navigationLocked {boolean}
+This property defines whether navigation away from the page is permitted or not. If it is set to true, then the page is locked to the current URL. Defaults to false.
+
+这个属性定义是否允许离开页面。如果设置为true，那么页面将被锁定到当前URL。默认值为false。
+
+offlineStoragePath
+offlineStorageQuota
+ownsPages
+pages
+pagesWindowName
+paperSize {object}
+This property defines the size of the web page when rendered as a PDF.
+
+这个属性定义网页呈现为一个PDF时的尺寸。
+
+plainText {string}
+
+
+Read-only. This property stores the content of the web page (main frame) as plain text — no element tags!
+
+
+
+See also: page.content which returns the content with element tags.
+
+只读。此属性存储网页（主frame）内容为纯文本——没有元素标签。
+
+参见：page.content返回带元素标签的内容。
+
+scrollPosition {object}
+This property defines the scroll position of the web page.
+
+这个属性定义网页的滚动位置。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.scrollPosition = {
+
+  top: 100,
+
+  left: 0
+
+};
+
+settings {object}
+This property stores various settings of the web page:
+
+此属性存储网页的各种设置：
+
+javascriptEnabled defines whether to execute the script in the page or not (defaults to true).
+
+确定是否在页面执行脚本（默认为true）
+
+loadImages defines whether to load the inlined images or not (defaults to true).
+
+确定是否加载图片（默认为true）
+
+localToRemoteUrlAccessEnabled defines whether local resource (e.g. from file) can access remote URLs or not (defaults to false).
+
+确定本地资源（如文件资源）可以访问远程URL（默认为false）
+
+userAgent defines the user agent sent to server when the web page requests resources.
+
+定义当page请求资源时发送给服务器的user-agent。
+
+userName sets the user name used for HTTP authentication.
+
+设置用于http授权的用户姓名。
+
+password sets the password used for HTTP authentication.
+
+设置用于http授权的用户密码。
+
+XSSAuditingEnabled defines whether load requests should be monitored for cross-site scripting attempts (defaults to false).
+
+定义是否监控加载的请求以防其为跨站脚本攻击。（默认为false）
+
+webSecurityEnabled defines whether web security should be enabled or not (defaults to true).
+
+定义是否开启网页安全（默认为true）
+
+resourceTimeout (in milli-secs) defines the timeout after which any resource requested will stop trying and proceed with other parts of the page. onResourceTimeout callback will be called on timeout.
+
+超时时间（毫秒）任何资源请求在超时以后停止，并继续进行其余页面的部分。onResourceTimeout回调函数将会在超时以后被调用。
+
+Note: The settings apply only during the initial call to the page.open function. Subsequent modification of the settings object will not have any impact.
+
+注意：该设置仅适用于page.open函数初始化期间。后续修改不会受到此影响。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.settings.userAgent = ‘Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36’;
+
+title
+page.open(‘http://phantomjs.org’, function (status) {
+
+  console.log(page.title); // get page Title
+
+  phantom.exit();
+
+});
+
+url {string}
+Read-only. This property gets the current URL of the web page (main frame).
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.open(‘http://phantomjs.org’, function (status) {
+
+  var url = page.url;
+
+  console.log(‘URL: ‘ + url);
+
+  phantom.exit();
+
+});
+
+viewportSize {object}
+This property sets the size of the viewport for the layout process. It is useful to set the preferred initial size before loading the page, e.g. to choose between ‘landscape’ vs ‘portrait’.
+
+这个属性设置布局过程中的视窗大小。这被用于在加载页面之前首选的初始值大小。例如从landsscape和portrait之前选择。
+
+Because PhantomJS is headless (nothing is shown), viewportSize effectively simulates the size of the window like in a traditional browser.
+
+因为Phantomjs是个无界面浏览器（不显示任何东西），
+
+windowName
+zoomFactor {number}
+This property specifies the scaling factor for the page.render and page.renderBase64 functions.
+
+The default is 1, i.e. 100% zoom.
+
+这个缩放因子指定page.render和page.renderBase64函数的缩放程度。默认为1，即百分之百缩放。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.zoomFactor = 0.25;
+
+page.render(‘capture.png’);
+
+addCookie(Cookie) {boolean}
+Add a Cookie to the page. If the domain does not match the current page, the Cookie will be ignored/rejected. Returns true if successfully added, otherwise false.
+
+给页面添加一个cookie。如果域名不匹配当前页，cookie将被忽略或拒绝。如果成功返回true。否则false。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+phantom.addCookie({
+
+  ‘name’     : ‘Valid-Cookie-Name’,   /* required property */
+
+  ‘value’    : ‘Valid-Cookie-Value’,  /* required property */
+
+  ‘domain’   : ‘localhost’,
+
+  ‘path’     : ‘/foo’,                /* required property */
+
+  ‘httponly’ : true,
+
+  ‘secure’   : false,
+
+  ‘expires’  : (new Date()).getTime() + (1000 * 60 * 60)   /* <– expires in 1 hour */
+
+});
+
+clearCookies() {void}
+Delete all Cookies visible to the current URL.
+
+删除对当前URL可见的cookie。
+
+close() {void}
+Close the page and releases the memory heap associated with it. Do not use the page instance after calling this.
+
+关闭page，释放相关的内存。调用这个方法以后不再使用这个页面实例。
+
+Due to some technical limitations, the web page object might not be completely garbage collected. This is often encountered when the same object is used over and over again. Calling this function may stop the increasing heap allocation.
+
+由于一些技术上的限制，网页对象的垃圾收集可能不完全，导致经常出现同一对象的反复调用。调用此函数可以阻止越来越多的内存分配。
+
+deleteCookie(cookieName) {boolean}
+Delete any Cookies visible to the current URL with a ‘name’ property matching cookieName. Returns true if successfully deleted, otherwise false.
+
+删除一个对当前URL可见的，name属性为cookieName的cookie。成功返回true，否则false。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.deleteCookie(‘Added-Cookie-Name’);
+
+evaluate(function, arg1, arg2, …) {object}
+
+
+Evaluates the given function in the context of the web page. The execution is sandboxed, the web page has no access to the phantom object and it can’t probe its own setting.
+
+在当前Web页面上下文中执行给予的函数。这个函数执行在沙箱中，web页面无法访问phantom的上下文和设置。
+
+Get the page title from Bing.com (1)
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.open(‘http://m.bing.com’, function(status) {
+
+
+
+  var title = page.evaluate(function() {
+
+    return document.title;
+
+  });
+
+
+
+  console.log(title);
+
+  phantom.exit();
+
+
+
+});
+
+Get the page title from Bing.com (2)
+
+As of PhantomJS 1.6, JSON-serializable arguments can be passed to the function. In the following example, the text value of a DOM element is extracted.
+
+（自从phantom1.6）Json字符串可以传递给函数。在下面的例子中 ，一个dom元素的text value被提出了出来。
+
+The following example achieves the same end goal as the previous example but the element is chosen based on a selector which is passed to the evaluate call:
+
+下面的例子实现和之前的例子相同的目标，然而这个元素是基于一个传递到evaluate中的选择器选择的。
+
+page.open(‘http://m.bing.com’, function(status) {
+
+
+
+  var title = page.evaluate(function(s) {
+
+    return document.querySelector(s).innerText;
+
+  }, ‘title’);
+
+
+
+  console.log(title);
+
+  phantom.exit();
+
+
+
+});
+
+Note: The arguments and the return value to the evaluate function must be a simple primitive object. The rule of thumb: if it can be serialized via JSON, then it is fine.
+
+Note：传给evaluate的参数和返回值必须是一个简单的原始对象。经验之谈：如果它可以序列化成json，那么它就是合适的。
+
+Closures, functions, DOM nodes, etc. will not work!
+
+闭包，函数，DOM节点等等都是无法工作的！
+
+evaluateAsync(function) {void}
+Evaluates the given function in the context of the web page without blocking the current execution. The function returns immediately and there is no return value. This is useful to run some script asynchronously.
+
+在web页面上下文无阻塞立刻执行给定的函数。该函数立刻返回，没有返回值。在异步执行一些脚本时有用。
+
+getPage(windowName)
+go(index)
+goBack()
+goForward()
+includeJs(url, callback) {void}
+Includes external script from the specified url (usually a remote location) on the page and executes the callback upon completion.
+
+将指定URL（通常是一个远程地址）上的脚本包括进这个page，完成后回调。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.includeJs(‘http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js’, function() {
+
+  // jQuery is loaded, now manipulate the DOM
+
+  var $loginForm = $(‘form#login’);
+
+  $loginForm.find(‘input[name=”username”]’).value(‘phantomjs’);
+
+  $loginForm.find(‘input[name=”password”]’).value(‘c45p3r’);
+
+});
+
+injectJs(filename) {boolean}
+Injects external script code from the specified file into the page (like page.includeJs, except that the file does not need to be accessible from the hosted page).
+
+
+
+If the file cannot be found in the current directory, libraryPath is used for additional look up.
+
+
+
+This function returns true if injection is successful, otherwise it returns false.
+
+以特殊文件向页面注入脚本代码（类似page.indudejs，除了这个文件不需要从hosted page获取。）
+
+如果不能在当前文件夹中找到文件，程序将会去libraryPath路径下寻找。
+
+如果注入成功，返回true；否则返回false。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.open(‘http://www.phantomjs.org’, function(status) {
+
+  if (status === “success”) {
+
+    page.includeJs(‘http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js’, function() {
+
+      if (page.injectJs(‘do.js’)) {
+
+        var title = page.evaluate(function() {
+
+          // returnTitle is a function loaded from our do.js file – see below
+
+          return returnTitle();
+
+        });
+
+        console.log(title);
+
+        phantom.exit();
+
+      }
+
+    });
+
+  }
+
+});
+
+open(url, callback) {void} open(url, method, callback) {void} open(url, method, data, callback) {void} open(url, settings, callback) {void}
+
+
+Opens the url and loads it to the page. Once the page is loaded, the optional callback is called using page.onLoadFinished, and also provides the page status to the function (‘success’ or ‘fail’).
+
+打开并加载URL到页面。一旦加载完页面，使用page.onloadFinished调用可能会有的回调。
+
+并且提供给该函数success或者fail的状态。
+
+
+
+GET google.com and report “success” or “fail”：
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.open(‘http://www.google.com/’, function(status) {
+
+  console.log(‘Status: ‘ + status);
+
+  // Do other things here…
+
+});
+
+POST data to google.com and report “success” or “fail”：
+
+As of PhantomJS 1.2, the open function can be used to request a URL with methods other than GET. This syntax also includes the ability to specify data to be sent with the request. In the following example, we make a request using the POST method, and include some basic data.
+
+自从1.2版本开始，open函数还可用于不止GET方式请求URL。这个语法还包括传输数据给药发送的请求的能力。下面是一个使用POST方法的例子，包括一些基本的数据。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+var postBody = ‘user=username&password=password’;
+
+
+
+page.open(‘http://www.google.com/’, ‘POST’, postBody, function(status) {
+
+  console.log(‘Status: ‘ + status);
+
+  // Do other things here…
+
+});
+
+POST json data to your.custom.api in utf-8 encoding：
+
+As of PhantomJS 1.9, the open function can get an object of settings. and with a use of “encoding” key, you can set the custom encoding to your app. In this example, we’ve set the encoding to UTF8, and set the Content-Type header to application/json for making our server know the request has information in json format and not in urlencoded format.
+
+从1.9版本开始，open函数可以得到一个settings对象。使用“encoding”键，你可以设置应用的自定义编码。在这个例子中，我们设置编码为“utf-8”并且为application/json设置Conten-Type header，以便于让服务端明白这个请求Json格式，不出现乱码。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+var settings = {
+
+  operation: “POST”,
+
+  encoding: “utf8”,
+
+  headers: {
+
+    “Content-Type”: “application/json”
+
+  },
+
+  data: JSON.stringify({
+
+    some: “data”,
+
+    another: [“custom”, “data”]
+
+  })
+
+};
+
+
+
+page.open(‘http://your.custom.api’, settings, function(status) {
+
+  console.log(‘Status: ‘ + status);
+
+  // Do other things here…
+
+});
+
+openUrl(url, httpConf, settings)
+reload
+render(filename [, {format, quality}]) {void}
+Renders the web page to an image buffer and saves it as the specified filename.
+
+Currently, the output format is automatically set based on the file extension.
+
+将网页保存为指定文件名的突变，目前输出格式自动设置为文件扩展名。
+
+Supported formats
+
+PNG GIF JPEG PDF
+
+Quality
+
+An integer between 0 and 100.
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.viewportSize = { width: 1920, height: 1080 };
+
+page.open(“http://www.google.com”, function start(status) {
+
+  page.render(‘google_home.jpeg’, {format: ‘jpeg’, quality: ‘100’});
+
+  phantom.exit();
+
+});
+
+renderBase64(format)
+Renders the web page to an image buffer and returns the result as a Base64-encoded string representation of that image.
+
+将网页保存成图片buffer，并以base64编码字符串返回该图片。
+
+Supported formats
+
+PNG GIF JPEG
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.viewportSize = {
+
+    width: 1920,
+
+    height: 1080
+
+};
+
+
+
+page.open(‘http://phantomjs.org’, function (status) {
+
+  var base64 = page.renderBase64(‘PNG’);
+
+  console.log(base64);
+
+  phantom.exit();
+
+});
+
+sendEvent
+Sends an event to the web page.
+
+给页面发送个事件。
+
+The events are not synthetic DOM events, each event is sent to the web page as if it comes as part of user interaction.
+
+这个事件并不是 虚拟DOM事件，每一个事件被当作用户的交互发送到web页。
+
+Mouse events
+
+sendEvent(mouseEventType[, mouseX, mouseY, button=’left’])
+
+The first argument is the event type. Supported types are ‘mouseup’, ‘mousedown’, ‘mousemove’, ‘doubleclick’ and ‘click’. The next two arguments are optional but represent the mouse position for the event.
+
+The button parameter (defaults to left) specifies the button to push.
+
+For ‘mousemove’, however, there is no button pressed (i.e. it is not dragging).
+
+第一个参数是事件类型。支持的类型有“mouseup”，“mousedown”，“mousemove”，“doubleclick”和“click”。接下来的两个可选参数代表了这个事件的鼠标位置。
+
+Button参数（默认为左）规定了哪个按钮被按下。
+
+然而对于“mousemove”事件是没有按钮被按下的。（不是拖拽。）
+
+Keyboard events
+
+sendEvent(keyboardEventType, keyOrKeys, [null, null, modifier])
+
+The first argument is the event type. The supported types are: keyup, keypress and keydown. The second parameter is a key (from page.event.key), or a string.
+
+第一个参数是事件类型。支持的类型有：“keyup”“keypress”和“keydown”。第二个参数是个按键（通过page.event.key），或者一个string.
+
+You can also indicate a fifth argument, which is an integer indicating the modifier key.
+
+你也可以加第五个参数，它是一个用来修饰key的整数。
+
+0: No modifier key is pressed
+
+0x02000000: A Shift key on the keyboard is pressed
+
+0x04000000: A Ctrl key on the keyboard is pressed
+
+0x08000000: An Alt key on the keyboard is pressed
+
+0x10000000: A Meta key on the keyboard is pressed
+
+0x20000000: A keypad button is pressed
+
+Third and fourth argument are not taken account for keyboard events. Just give null for them.
+
+第三个和第四个参数不对键盘事件起作用，给他们设置为null好了。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.sendEvent(‘keypress’, page.event.key.A, null, null, 0x02000000 | 0x08000000);
+
+setContent
+Allows to set both page.content and page.url properties.
+
+The webpage will be reloaded with the new content and the current location set as the given url, without any actual http request being made.
+
+允许同时设置page.Content和page.url的属性。网页会重新加载一个新的内容，并且当前url被设置为被给予的URL。
+
+Stop
+switchToFocusedFrame
+switchToFrame(frameName) or switchToFrame(framePosition)
+switchToMainFrame
+switchToParentFrame
+uploadFile(selector, filename)
+Uploads the specified file (filename) to the form element associated with the selector.
+
+将指定的文件（文件名）上传给选择器选择的form元素。
+
+This function is used to automate the upload of a file, which is usually handled with a file dialog in a traditional browser. Since there is no dialog in this headless mode, such an upload mechanism is handled via this special function instead.
+
+这个函数用来执行一个文件上传。这通常通过传统浏览器里的一个文件对话框处理。既然这个浏览器没有界面，这样一个上传机制就由一个函数所代替。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.uploadFile(‘input[name=image]’, ‘/path/to/some/photo.jpg’);
+
+Callback Triggers
+
+These functions call callbacks, used for tests…
+
+
+
+closing(page)
+
+initialized()
+
+javaScriptAlertSent(message)
+
+javaScriptConsoleMessageSent(message)
+
+loadFinished(status)
+
+loadStarted()
+
+navigationRequested(url, navigationType, navigationLocked, isMainFrame)
+
+rawPageCreated(page)
+
+resourceError(resource)
+
+resourceReceived(request)
+
+resourceRequested(resource)
+
+urlChanged(url)
+
+onAlert
+This callback is invoked when there is a JavaScript alert on the web page. The only argument passed to the callback is the string for the message. There is no return value expected from the callback handler.
+
+当web page有javascript 的alert（）出现时调用此回调。唯一的传递给回调的参数是消息的字符串。这个回调函数没有任何返回。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.onAlert = function(msg) {
+
+  console.log(‘ALERT: ‘ + msg);
+
+};
+
+onClosing
+This callback is invoked when the WebPage object is being closed, either via page.close in the PhantomJS outer space or via window.close in the page’s client-side.
+
+It is not invoked when child/descendant pages are being closed unless you also hook them up individually. It takes one argument, closingPage, which is a reference to the page that is closing. Once the onClosing handler has finished executing (returned), the WebPage object closingPage will become invalid.
+
+当网页对象被关闭时调用这个回调函数。phantomJs的环境中通过page.close和在页面中通过window.close关闭页面时触发。
+
+当子页面关闭时并不调用此函数，当你单独打开他们时调用此函数。Closingpage参数指向正在关闭的页面。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onClosing = function(closingPage) {
+
+  console.log(‘The page is closing! URL: ‘ + closingPage.url);
+
+};
+
+onConfirm
+This callback is invoked when there is a JavaScript confirm on the web page. The only argument passed to the callback is the string for the message. The return value of the callback handler can be either true or false, which are equivalent to pressing the “OK” or “Cancel” buttons presented in a JavaScript confirm, respectively.
+
+当网页上有一个javascript 的confirm函数出现时调用此回调。唯一一个被传送到回调函数的参数是消息的字符串。回调函数的返回值是true或者false，相当于在javascript环境下按下了一个确认按钮或者取消按钮。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+page.onConfirm = function(msg) {
+
+  console.log(‘CONFIRM: ‘ + msg);
+
+  return true; // true === pressing the “OK” button, false === pressing the “Cancel” button
+
+};
+
+onConsoleMessage
+This callback is invoked when there is a JavaScript console message on the web page. The callback may accept up to three arguments: the string for the message, the line number, and the source identifier.
+
+当页面javascript打印消息时调用此函数。这个回调函数接收三个参数（后两个已经取消）：消息（string），行数（number）（已取消），和元标识符（已取消）。
+
+By default, console messages from the web page are not displayed. Using this callback is a typical way to redirect it.
+
+默认的，网页打印台上显示的文字不会展示出来。使用这个回调是一种间接方法。
+
+Note: line number and source identifier are not used yet, at least in phantomJS <= 1.8.1. You receive undefined values.
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onConsoleMessage = function(msg, lineNum, sourceId) {
+
+  console.log(‘CONSOLE: ‘ + msg + ‘ (from line #’ + lineNum + ‘ in “‘ + sourceId + ‘”)’);
+
+};
+
+onError
+This callback is invoked when there is a JavaScript execution error. It is a good way to catch problems when evaluating a script in the web page context. The arguments passed to the callback are the error message and the stack trace [as an Array].
+
+当有一个javascript执行错误时调用此回调函数。它是当web页面上下文脚本发生错误时候捕获错误的好办法。传递给回掉函数的参数是错误消息和堆栈追踪【数组】
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onError = function(msg, trace) {
+
+
+
+  var msgStack = [‘ERROR: ‘ + msg];
+
+
+
+  if (trace && trace.length) {
+
+    msgStack.push(‘TRACE:’);
+
+    trace.forEach(function(t) {
+
+      msgStack.push(‘ -> ‘ + t.file + ‘: ‘ + t.line + (t.function ? ‘ (in function “‘ + t.function +'”)’ : ”));
+
+    });
+
+  }
+
+
+
+  console.error(msgStack.join(‘\n’));
+
+
+
+};
+
+onFilePicker
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+var system = require(‘system’);
+
+
+
+page.onFilePicker = function(oldFile) {
+
+  if (system.os.name === ‘windows’) {
+
+    return ‘C:\\Windows\\System32\\drivers\\etc\\hosts’;
+
+  }
+
+  return ‘/etc/hosts’;
+
+};
+
+onInitialized
+This callback is invoked after the web page is created but before a URL is loaded. The callback may be used to change global objects.
+
+当页面创建但是url尚未加载时调用此函数。回调也许会被用来改变全局变量。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onInitialized = function() {
+
+  page.evaluate(function() {
+
+    document.addEventListener(‘DOMContentLoaded’, function() {
+
+      console.log(‘DOM content has loaded.’);
+
+    }, false);
+
+  });
+
+};
+
+onLoadFinished
+This callback is invoked when the page finishes the loading. It may accept a single argument indicating the page’s status: ‘success’ if no network errors occurred, otherwise ‘fail’.
+
+页面完成加载时调用此回调函数。回调函数接收一个参数表示网页的状态：success表示没有网络错误发生，不然是fail。
+
+Also see page.open for an alternate hook for the onLoadFinished callback.
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onLoadFinished = function(status) {
+
+  console.log(‘Status: ‘ + status);
+
+  // Do other things here…
+
+};
+
+page.onLoadFinished = function(status) {
+
+  console.log(‘Status: ‘ + status);
+
+  // Do other things here…
+
+};
+
+onLoadStarted
+This callback is invoked when the page starts the loading. There is no argument passed to the callback.
+
+当页面开始加载时调用此函数。没有参数传递给回调。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onLoadStarted = function() {
+
+  var currentUrl = page.evaluate(function() {
+
+    return window.location.href;
+
+  });
+
+  console.log(‘Current page ‘ + currentUrl + ‘ will gone…’);
+
+  console.log(‘Now loading a new page…’);
+
+};
+
+onNavigationRequested
+By implementing this callback, you will be notified when a navigation event happens and know if it will be blocked (by page.navigationLocked).
+
+通过调用这一个回调函数，当导航事件发生时你将会得到通知，并且知道这个是否会被阻塞（通过page.navigationLocked）。
+
+Arguments
+
+
+
+url : The target URL of this navigation event
+
+导航事件的目标URL
+
+type : Possible values include: ‘Undefined’, ‘LinkClicked’, ‘FormSubmitted’, ‘BackOrForward’, ‘Reload’, ‘FormResubmitted’, ‘Other’
+
+可能值：‘Undefined’, ‘LinkClicked’, ‘FormSubmitted’, ‘BackOrForward’, ‘Reload’, ‘FormResubmitted’, ‘Other’
+
+willNavigate : true if navigation will happen, false if it is locked (by page.navigationLocked)
+
+true当导航发生，被（通过page.navigationLocked）锁住时是false
+
+main : true if this event comes from the main frame, false if it comes from an iframe of some other sub-frame.
+
+当这个事件来自主页面时为true，否则是false。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onNavigationRequested = function(url, type, willNavigate, main) {
+
+  console.log(‘Trying to navigate to: ‘ + url);
+
+  console.log(‘Caused by: ‘ + type);
+
+  console.log(‘Will actually navigate: ‘ + willNavigate);
+
+  console.log(‘Sent from the page\’s main frame: ‘ + main);
+
+}
+
+onPageCreated
+This callback is invoked when a new child window (but not deeper descendant windows) is created by the page, e.g. using window.open.
+
+页面创建新的子窗口的时候调用此回调。例如使用window.open
+
+In the PhantomJS outer space, this WebPage object will not yet have called its own page.open method yet and thus does not yet know its requested URL (page.url).
+
+在phantomjs的外部环境 这个webpage对象尚未访问自己的page.open方法，所以它还不知道请求的URL。
+
+Therefore, the most common purpose for utilizing a page.onPageCreated callback is to decorate the page (e.g. hook up callbacks, etc.).
+
+因此，page.onpageCreated最常见的用途是装饰页面。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onPageCreated = function(newPage) {
+
+  console.log(‘A new child page was created! Its requested URL is not yet available, though.’);
+
+  // Decorate
+
+  newPage.onClosing = function(closingPage) {
+
+    console.log(‘A child page is closing: ‘ + closingPage.url);
+
+  };
+
+};
+
+onPrompt
+This callback is invoked when there is a JavaScript prompt on the web page. The arguments passed to the callback are the string for the message (msg) and the default value (defaultVal) for the prompt answer. The return value of the callback handler should be a string.
+
+当网页端有javascript 的prompt（）时调用此函数。传给回调函数的参数是msg消息和prompt（）回答的默认值。返回值应该是string格式。
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onPrompt = function(msg, defaultVal) {
+
+  if (msg === “What’s your name?”) {
+
+    return ‘PhantomJS’;
+
+  }
+
+  return defaultVal;
+
+};
+
+onResourceError
+This callback is invoked when a web page was unable to load resource. The only argument to the callback is the resourceError metadata object.
+
+当一个页面无法加载资源时调用此函数。传给回掉函数的参数是resourceerror元数据对象。
+
+The resourceError metadata object contains these properties:
+
+resourceError元数据含有下列属性：
+
+id : the number of the request
+
+url : the resource url
+
+errorCode : the error code
+
+errorString : the error description
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onResourceError = function(resourceError) {
+
+  console.log(‘Unable to load resource (#’ + resourceError.id + ‘URL:’ + resourceError.url + ‘)’);
+
+  console.log(‘Error code: ‘ + resourceError.errorCode + ‘. Description: ‘ + resourceError.errorString);
+
+};
+
+onResourceReceived
+This callback is invoked when a resource requested by the page is received. The only argument to the callback is the response metadata object.
+
+当页面请求的资源收到时调用回调。传给回调的参数是resourceerror元数据对象。
+
+If the resource is large and sent by the server in multiple chunks, onResourceReceived will be invoked for every chunk received by PhantomJS.
+
+当资源过大时服务端将会分成多块传送资源。onResourceReceived（）将会在每一块数据被PhantomJs接收时调用。
+
+The response metadata object contains these properties:
+
+
+
+id : the number of the requested resource
+
+url : the URL of the requested resource
+
+time : Date object containing the date of the response
+
+headers : list of http headers
+
+bodySize : size of the received content decompressed (entire content or chunk content)
+
+contentType : the content type if specified
+
+redirectURL : if there is a redirection, the redirected URL
+
+stage : “start”, “end” (FIXME: other value for intermediate chunk?)
+
+status : http status code. ex: 200
+
+statusText : http status text. ex: OK
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onResourceReceived = function(response) {
+
+  console.log(‘Response (#’ + response.id + ‘, stage “‘ + response.stage + ‘”): ‘ + JSON.stringify(response));
+
+};
+
+onResourceRequested
+This callback is invoked when the page requests a resource. The first argument to the callback is the requestData metadata object. The second argument is the networkRequest object itself.
+
+页面请求资源时调用此函数。第一个参数是resourceerror元数据对象，第二个参数是networkRequest对象本身。
+
+The requestData metadata object contains these properties:
+
+id : the number of the requested resource
+
+method : http method
+
+url : the URL of the requested resource
+
+time : Date object containing the date of the request
+
+headers : list of http headers
+
+
+
+The networkRequest object contains these functions:
+
+abort() : aborts the current network request. Aborting the current network request will invoke onResourceError callback.
+
+终止当前的网络请求，将会调用回调函数onResourceError。
+
+changeUrl(newUrl) : changes the current URL of the network request. By calling networkRequest.changeUrl(newUrl), we can change the request url to the new url. This is an excellent and only way to provide alternative implementation of a remote resource. (see Example-2)
+
+改变当前网络请求的URL。这是提供一个远程资源替代实现的唯一途径。
+
+setHeader(key, value)
+
+Examples
+
+
+
+Example-1
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onResourceRequested = function(requestData, networkRequest) {
+
+  console.log(‘Request (#’ + requestData.id + ‘): ‘ + JSON.stringify(requestData));
+
+};
+
+Example-2
+
+
+
+Provide an alternative implementation of a remote javascript.
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onResourceRequested = function(requestData, networkRequest) {
+
+  var match = requestData.url.match(/wordfamily.js/g);
+
+  if (match != null) {
+
+    console.log(‘Request (#’ + requestData.id + ‘): ‘ + JSON.stringify(requestData));
+
+
+
+    // newWordFamily.js is an alternative implementation of wordFamily.js
+
+    // and is available in local path
+
+    networkRequest.changeUrl(‘newWordFamily.js’);
+
+  }
+
+};
+
+onResourceTimeout
+This callback is invoked when a resource requested by the page timeout according to settings.resourceTimeout. The only argument to the callback is the request metadata object.
+
+页面请求的资源超时调用此函数。传给回调函数的唯一参数是请求元数据对象。
+
+The request metadata object contains these properties:
+
+
+
+id: the number of the requested resource
+
+method: http method
+
+url: the URL of the requested resource
+
+time: Date object containing the date of the request
+
+headers: list of http headers
+
+errorCode: the error code of the error
+
+errorString: text message of the error
+
+Examples
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onResourceTimeout = function(request) {
+
+    console.log(‘Response (#’ + request.id + ‘): ‘ + JSON.stringify(request));
+
+};
+
+onUrlChanged
+This callback is invoked when the URL changes, e.g. as it navigates away from the current URL. The only argument to the callback is the new targetUrl string.
+
+当url变化（比如它被导航离开当前页面的url时）调用此回调函数。传给回调函数的唯一参数是新的targetURl字符串。
+
+To retrieve the old URL, use the onLoadStarted callback.
+
+使用onLoadStarted回调函数以取回老的url。
+
+Examples
+
+
+
+var webPage = require(‘webpage’);
+
+var page = webPage.create();
+
+
+
+page.onUrlChanged = function(targetUrl) {
+
+  console.log(‘New URL: ‘ + targetUrl);
+
+};
+
+Child Process Module
+The child_process module allows you to invoke subprocesses and communicate with them via stdin / stdout / stderr. This is useful for tasks such as printing, sending mail, or invoking scripts or programs written in another language (not Javascript).
+
+子进程模块允许你调用子进程并且与之通过 stdin/stdiout/stderr进行交流。这对于打印或者发送邮件的任务来说很有用。或者调用其它语言编写的脚本或者程序。
+
+To start using, you must require a reference to the child_process module:
+
+var process = require(“child_process”)
+
+var spawn = process.spawn
+
+var execFile = process.execFile
+
+
+
+var child = spawn(“ls”, [“-lF”, “/rooot”])
+
+
+
+child.stdout.on(“data”, function (data) {
+
+  console.log(“spawnSTDOUT:”, JSON.stringify(data))
+
+})
+
+
+
+child.stderr.on(“data”, function (data) {
+
+  console.log(“spawnSTDERR:”, JSON.stringify(data))
+
+})
+
+
+
+child.on(“exit”, function (code) {
+
+  console.log(“spawnEXIT:”, code)
+
+})
+
+
+
+//child.kill(“SIGKILL”)
+
+
+
+execFile(“ls”, [“-lF”, “/usr”], null, function (err, stdout, stderr) {
+
+  console.log(“execFileSTDOUT:”, JSON.stringify(stdout))
+
+  console.log(“execFileSTDERR:”, JSON.stringify(stderr))
+
+})
+
+Spawn
+var page  = require(‘page’).create();
+
+var spawn = require(‘child_process’).spawn;
+
+
+
+page.open(‘http://google.com’, function(status){
+
+  if( status == ‘success’ ) {
+
+    page.render(‘/tmp/google-snapshot.jpg’);
+
+    spawn(‘/usr/bin/sensible-browser’, ‘file:///tmp/google-snapshot.jpg’);
+
+    phantom.exit();
+
+  }
+
+})
+
+File System Module
+A set of API functions is available to access files and directories, modeled after the CommonJS Filesystem proposal.
+
+一租可以访问文件和目录的文件系统方案的函数，来自CommonJS。
+
+To start using, you must require a reference to the fs module:
+
+var fs = require(‘fs’);
+
+
+
+Stream objects are returned from the fs.open method.
+
+fs.open方法返回一个流对象。
+
+Separator
+workingDirectory
+var fs = require(‘fs’);
+
+console.log(fs.workingDirectory);// return “F:/liu/study/phantomjs/examples”(the directory the file exsit)
+
+‘absolute(string)’ (string)
+Gets the absolute path to where the phantomjs is been run from. If you use relative addresses then you can get the actual address of directories above and below the phantomjs program.
+
+得到phantomjs运行的绝对路径。如果你使用相对路径，那么你可以得到目录的实际路径
+
+var fs = require(‘fs’);
+
+
+
+// Print the directory from which phantomjs was run:
+
+var cwd = fs.absolute(“.”);
+
+console.log(cwd);
+
+
+
+// The parent directory:
+
+var parent = fs.absolute(“../”);
+
+console.log(parent);
+
+
+
+// Absolute path of a child directory:
+
+var kid = fs.absolute(“/below”);
+
+console.log(kid);
+
+changeWorkingDirectory (string) (BOOL)
+This allows you to change the workingDirectory and returns true if the change happened else false
+
+改变工作目录，成功返回true，错误返回false
+
+var fs = require(‘fs’);
+
+console.log(fs.workingDirectory); //prints the location where phantomjs is running
+
+fs.changeWorkingDirectory(“C:\\”);
+
+console.log(fs.workingDirectory); //prints C:/
+
+copy(string source, string destination)’
+This will try to copy a file from one path to another.
+
+这个函数尝试将一个文件拷贝到另外一个文件。
+
+Parameter 1 is the source file and parameter 2 is the destination path with the file name.
+
+参数1是源文件，参数2是带目标地址的文件名。
+
+If the source file can’t be found then it will throw a ‘Unable to copy file SOURCE at DESTINATION’ and hang execution.
+
+如果源文件无法被发现，将会抛出一个错误“无法复制文件到目的地”并且暂停执行。
+
+If the destination can not be created then it will throw a ‘Unable to copy file SOURCE at DESTINATION’ and hang execution. It will not overwrite existing files.
+
+如果目的地文件无法被创建，将会抛出一个错误“无法复制文件到目的地”并且暂停执行。这个函数无法重写已经存在的文件。
+
+var fs = require(‘fs’);
+
+fs.copy(“A.txt”, “folder/A.txt”);
+
+copyTree (string source, string destination)
+This will try to copy a directory tree from one path to another.
+
+这个函数将尝试拷贝一个目录结构到另外一个地方。
+
+Parameter 1 is the source folder tree and parameter 2 is the destination path.
+
+参数1是源文件树参数2是目的目录。
+
+If the destination folder doesn’t exist, it will be created. Then, every file and folder will be copied in the destination folder. Folders will be recursively copied.
+
+如果目的文件夹不存在，其将被创建。每一个文件和每一个文件夹都会被拷贝到目的文件夹。文件夹会被递归地拷贝。
+
+If one of the files or folders fails to be copied or created, it will throw a ‘Unable to copy directory tree SOURCE at DESTINATION’ and hang execution.
+
+如果其中一个文件无法被拷贝或者创建，其将会抛出错误“Unable to copy directory tree SOURCE at DESTINATION”并且暂停执行。
+
+var fs = require(‘fs’);
+
+
+
+fs.copyTree(“sourceFolder/”, “destinationFolder/”);
+
+phantom.exit();
+
+‘exists(string)’ (BOOL)
+This will return true if the file exists, otherwise it will return false. This follows symlinks to determinate if a file exists.
+
+返回文件是否存在。存在true，否则false。
+
+var fs = require(‘fs’);
+
+var path = ‘output.txt’;
+
+if (!fs.exists(path))
+
+  fs.write(‘Hello World’, path, ‘w’);
+
+phantom.exit();
+
+
+
+var fs = require(‘fs’);
+
+var path = ‘/Full/Path/To/test.txt’;
+
+if (fs.exists(path))
+
+  console.log(‘”‘+path+'” exists.’);
+
+else
+
+  console.log(‘”‘+path+'” doesn\’t exist.’);
+
+phantom.exit();
+
+‘isAbsolute(string)’ (BOOL)
+This will return true if the file path is absolute, otherwise it will return false if the path is relative.
+
+如果文件路径是绝对路径返回true，否则返回false
+
+var fs = require(‘fs’);
+
+var path = ‘/Full/Path/To/test.txt’;
+
+
+
+// isAbsolute(path) returns true if the specified path is an absolute path.
+
+if (fs.isAbsolute(path))
+
+  console.log(‘”‘+path+'” is an absolute path.’);
+
+else
+
+  console.log(‘”‘+path+'” is NOT an absolute path.’);
+
+phantom.exit();
+
+isDirectory(string)’ (BOOL)
+var fs = require(‘fs’);
+
+var path = “/etc/”;
+
+// Get a list all files in directory
+
+var list = fs.list(path);
+
+// Cycle through the list
+
+for(var x = 0; x < list.length; x++){
+
+  // Note: If you didn’t end path with a slash, you need to do so here.
+
+    var file = path + list[x];
+
+    if(fs.isDirectory(file)){
+
+        // Do something
+
+    }
+
+}
+
+phantom.exit();
+
+isExecutable(string)’ (BOOL)
+var fs = require(‘fs’);
+
+var path = ‘/Full/Path/To/exec’;
+
+
+
+if (fs.isExecutable(path))
+
+  console.log(‘”‘+path+'” is executable.’);
+
+else
+
+  console.log(‘”‘+path+'” is NOT executable.’);
+
+phantom.exit();
+
+‘isFile(string)’ (BOOL)
+var fs = require(‘fs’);
+
+var path = “/etc/”;
+
+// Get a list all files in directory
+
+var list = fs.list(path);
+
+// Cycle through the list
+
+for(var x = 0; x < list.length; x++){
+
+  // Note: If you didn’t end path with a slash, you need to do so here.
+
+    var file = path + list[x];
+
+    if(fs.isFile(file)){
+
+        // Do something
+
+    }
+
+}
+
+
+
+phantom.exit();
+
+‘isLink(string)’ (BOOL)
+This will return true if the file path is a symlink (or a shortcut on Windows), otherwise it will return false.
+
+判断是否是个symlink（或者在windows下是个快捷方式）。
+
+Be aware that Unix-like systems and Windows systems don’t manage symlinks and shortcuts the same way.
+
+注意unix类系统和windows系统有不同的方式。
+
+var fs = require(‘fs’);
+
+var path = ‘/Full/Path/To/file’;
+
+
+
+if (fs.isLink(path))
+
+  console.log(‘”‘+path+'” is a link.’);
+
+else
+
+  console.log(‘”‘+path+'” is an absolute path’);
+
+
+
+phantom.exit();
+
+‘isReadable(string)’ (BOOL)
+This will return true if the file is readable, otherwise it will return false.
+
+是否可读。
+
+Examples
+
+var fs = require(‘fs’);
+
+var path = ‘/Full/Path/To/file’;
+
+
+
+if (fs.isReadable(path)) {
+
+  console.log(‘”‘+path+'” is readable.’);
+
+
+
+  // Open the file
+
+  var otherFile = fs.open(path, {
+
+    mode: ‘r’ //Read mode
+
+  });
+
+  // Do something with the opened file
+
+}
+
+else
+
+  console.log(‘”‘+path+'” is NOT readable.’);
+
+
+
+phantom.exit();
+
+isWritable(string)’ (BOOL)
+This will return true if the file is writable, otherwise it will return false.
+
+是否可写。
+
+
+
+var fs = require(‘fs’);
+
+var path = ‘/Full/Path/To/file’;
+
+
+
+if (fs.isWritable(path)) {
+
+  console.log(‘”‘+path+'” is writable.’);
+
+
+
+  var content = ‘Hello World!’;
+
+  fs.write(path, content, ‘w’);
+
+}
+
+else
+
+  console.log(‘”‘+path+'” is NOT writable.’);
+
+
+
+phantom.exit();
+
+list(string)’ (Array)
+List the contents of a directory on the file system as simple array. This will returns an empty array if the directory is unreadable or doesn’t exist.
+
+列出一个目录中的所有内容。如果目录无法访问或者不存在返回一个空数列。
+
+Examples
+
+
+
+// EXAMPLE: Show a list of files in a specific directory as a fully qualified path:
+
+var fs = require(‘fs’);
+
+var path = “/etc/”;
+
+// Get a list all files in directory
+
+var list = fs.list(path);
+
+// Cycle through the list
+
+for(var x = 0; x < list.length; x++){
+
+  // Note: If you didn’t end path with a slash, you need to do so here.
+
+    var file = path + list[x];
+
+    if(fs.isFile(file)){
+
+        // Do something
+
+    }
+
+}
+
+phantom.exit();
+
+‘makeDirectory(string)’ (BOOL)
+Creates a directory at the given path.
+
+创造文件夹。成功true，失败false。如果已经存在文件夹，返回false
+
+This will returns true if the creation was successful, otherwise false. If the directory already exists, it will returns false.
+
+var fs = require(‘fs’);
+
+
+
+var path = ‘/Full/Path/To/Test/’;
+
+
+
+if(fs.makeDirectory(test))
+
+  console.log(‘”‘+path+'” was created.’);
+
+else
+
+  console.log(‘”‘+path+'” is NOT created.’);
+
+
+
+phantom.exit();
+
+makeTree(string)’ (BOOL)
+Creates all necessary directories to be able to create the directory.
+
+
+
+This will returns true if the creation was successful, otherwise false. If the directory already exists, it will returns true.
+
+var fs = require(‘fs’);
+
+
+
+var path = ‘/Full/Path/To/Test/’;
+
+
+
+if(fs.makeDirectory(test))
+
+  console.log(‘”‘+path+'” was created.’);
+
+else
+
+  console.log(‘”‘+path+'” is NOT created.’);
+
+
+
+phantom.exit();
+
+move(string source, string destination)’
+This will try to move a file from one path to another.
+
+移动文件。
+
+Parameter 1 is the source file and parameter 2 is the destination path with the file name.
+
+参数一为源文件，参数二位目标文件地址。
+
+If the source file can’t be found then it will throw a ‘Unable to copy file SOURCE at DESTINATION’ and hang execution.
+
+
+
+If the destination can not be created then it will throw a ‘Unable to copy file SOURCE at DESTINATION’ and hang execution. It will not overwrite existing files.
+
+
+
+If the source file can not be deleted then it will throw a ‘Unable to delete file SOURCE’ and hang execution
+
+
+
+var fs = require(‘fs’);
+
+fs.move(“A.txt”, “folder/A.txt”);.
+
+‘open(string path, string/Object parameters)’ (Stream)
+打开文件。
+
+The parameter object can contain :
+
+mode: Open Mode. A string made of ‘r’, ‘w’, ‘a/+’, ‘b’ characters.打开方式
+
+charset : An IANA, case insensitive, charset name.字符集名称
+
+Stream objects are returned from the fs.open method. Don’t forget to close the stream.
+
+
+
+When errors occur during a call, it will throw a ‘Unable to open file PATH’ and hang execution.
+
+var fs = require(‘fs’);
+
+
+
+var file = fs.open(‘/path/to/file’, ‘r’); //Open Mode. A string made of ‘r’, ‘w’, ‘a/+’, ‘b’ characters.
+
+
+
+var otherFile = fs.open(‘/path/to/otherFile’, {
+
+  mode: ‘r’ //(see Open Mode above)
+
+});
+
+
+
+var yetAnotherFile = fs.open(‘/path/to/yetAnotherFile’, {
+
+  mode: ‘w’, //(see Open Mode above)
+
+  charset: ‘US-ASCII’ //An IANA, case insensitive, charset name.
+
+});
+
+
+
+file.close();
+
+otherFile.close();
+
+yetAnotherFile.close();
+
+‘read(string path, string/Object parameters)’ (string)
+The parameter object can contain :
+
+
+
+mode: Open Mode. A string made of ‘r’, ‘w’, ‘a/+’, ‘b’ characters.
+
+charset : An IANA, case insensitive, charset name.
+
+Opens the path and returns the entire contents as a string.
+
+
+
+When errors occur during a call, it will throw a ‘Unable to open file PATH’ and hang execution.
+
+
+
+Note that the behavior of this method is closely related to fs.open.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+
+
+var content = fs.read(‘file.txt’);
+
+console.log(‘read data:’, content);
+
+
+
+phantom.exit();
+
+‘readLink(string)’ (string)
+This will return the absolute path of a file or folder pointed by a symlink (or shortcut on Windows). If the path is not an symlink or shortcut, it will return an empty string.
+
+返回一个文件或者文件夹的软连接的绝对路径（在windows下是快捷方式）。如果路径不是一个软链接或者快捷方式，将返回一个空字符串
+
+var fs = require(‘fs’);
+
+
+
+var path = ‘/Full/Path/To/test.txt’;
+
+
+
+if (fs.isLink(path)) {
+
+  var absolute = fs.readLink(path);
+
+  console.log(‘The absolute path of “‘+path+'” is “‘+absolute+'”‘);
+
+}
+
+else
+
+  console.log(‘”‘+path+'” is an absolute path’);
+
+
+
+phantom.exit();
+
+remove(string)’
+
+
+This will try to delete the specified file.
+
+删除指定文件
+
+When errors occur during a call, it will throw a ‘Unable to remove file PATH’ and hang execution.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+var toDelete = ‘someFile.txt’;
+
+
+
+fs.removeDirectory(toDelete);
+
+
+
+phantom.exit();
+
+removeDirectory(string)’
+
+
+This will try to delete the specified folder.
+
+删除文件夹
+
+The directory needs to be empty to be removed with this method. To delete an non empty folder, fs.removeTree should be used.
+
+
+
+When errors occur during a call, it will throw a ‘Unable to remove directory PATH’ and hang execution.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+var toDelete = ‘someFolder’;
+
+
+
+// Test if the folder is empty before deleting it
+
+if(fs.list(toDelete).length === 0)
+
+    fs.removeDirectory(toDelete);
+
+
+
+phantom.exit();
+
+‘removeTree(string)’
+删除树
+
+This will try to delete every file and folder in the specified folder and, finally, delete the folder itself.
+
+
+
+When errors occur during a call, it will throw a ‘Unable to remove directory tree PATH’ and hang execution.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+var toDelete = ‘someFolder’;
+
+
+
+fs.makeDirectory(toDelete);
+
+fs.touch(toDelete + ‘/test.txt’);
+
+
+
+// It will delete the ‘someFolder’ and the ‘test.txt’ in it
+
+fs.removeDirectory(toDelete);
+
+
+
+phantom.exit();
+
+size(string)’ (int)
+This will return the specified file size in bytes, if it exists.
+
+返回指定文件的长度
+
+When errors occur during a call, it will throw a ‘Unable to read file PATH size’ and hang execution.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+var path = ‘someFolder/’;
+
+
+
+// Go through every element in the folder
+
+fs.list(path).forEach(function(file) {
+
+    file = path + file;
+
+    // Remove every file that are larger than 100 bytes
+
+    if(fs.isFile(file) && fs.size(file) > 100)
+
+        fs.remove(file);
+
+});
+
+
+
+phantom.exit();
+
+touch(string)’
+
+
+This will try to create an empty file at the specified path.
+
+连接一个特殊路径的空文件。
+
+When errors occur during a call, it will throw a ‘Unable to open file PATH’ and hang execution. The call won’t throw an error if the file already exists.
+
+
+
+Note that the behavior of this method is closely related to fs.open and Stream.write.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+var path = ‘test.txt’;
+
+
+
+// Creates an empty file
+
+fs.touch(path);
+
+
+
+var text = fs.read(path);
+
+
+
+// If the test.txt didn’t already exist, this will print an empty string
+
+console.log(text);
+
+
+
+phantom.exit();
+
+‘write(string source, string content, string/Object parameters)’
+写入文件
+
+The parameter object can contain :
+
+
+
+mode: Open Mode. A string made of ‘r’, ‘w’, ‘a/+’, ‘b’ characters.
+
+charset : An IANA, case insensitive, charset name.
+
+If the source file can’t be openend then it will throw a ‘Unable to open file SOURCE’ and hang execution.
+
+
+
+Examples
+
+
+
+var fs = require(‘fs’);
+
+
+
+var path = ‘output.txt’;
+
+var content = ‘Hello World!’;
+
+fs.write(path, content, ‘w’);
+
+
+
+phantom.exit();
+
+System Module
+To start using, you must require a reference to the system module:
+
+
+
+var system = require(‘system’);
+
+system.args {String[]}
+Queries and returns a list of the command-line arguments. The first one is always the script name, which is then followed by the subsequent arguments.
+
+查询并返回一个列表的命令行参数。第一个是脚本名称，其后是后续参数。
+
+Examples
+
+
+
+The following example prints all of the command-line arguments:
+
+
+
+var system = require(‘system’);
+
+var args = system.args;
+
+
+
+if (args.length === 1) {
+
+  console.log(‘Try to pass some arguments when invoking this script!’);
+
+} else {
+
+  args.forEach(function(arg, i) {
+
+    console.log(i + ‘: ‘ + arg);
+
+  });
+
+}
+
+system.env {Object}
+Queries and returns a list of key-value pairs representing the environment variables.
+
+查询并返回一个键-值对列表表示环境变量
+
+var system = require(‘system’);
+
+var env = system.env;
+
+
+
+Object.keys(env).forEach(function(key) {
+
+  console.log(key + ‘=’ + env[key]);
+
+});
+
+Os
+Read-only. An object providing information about the operating system, including architecture, name, and version.
+
+只读，一个提供有关操作系统的对象。包括系统位数，名称和版本。
+
+var system = require(‘system’);
+
+var os = system.os;
+
+console.log(os.architecture);  // ’32bit’
+
+console.log(os.name);  // ‘windows’
+
+console.log(os.version);  // ‘7’
+
+system.pid {Number}
+Introduced: PhantomJS 1.8 Read-only. The PID (Process ID) for the currently executing PhantomJS process.
+
+1.8引入，只读。正在执行的phantomjs程序的 PID(程序ID)
+
+system.platform {String}
+Read-only. The name of the platform, for which the value is always ‘phantomjs’.
+
+只读。平台的名称，总是“phantomjs”
+
+var system = require(‘system’);
+
+console.log(system.platform); // ‘phantomjs’
+
+Web Server Module
+Stability: EXPERIMENTAL
+
+稳定性：试验性质
+
+Using an embedded web server module called Mongoose, PhantomJS script can start a web server. This is intended for ease of communication between PhantomJS scripts and the outside world and is not recommended for use as a general production server. There is currently a limit of 10 concurrent requests; any other requests will be queued up.
+
+通过使用一个名为“mongoose”嵌入的web服务模块，phantomJs脚本可以开启一个web服务器。这个是 phantomjs脚本和外界进行交流的一种方式，但并不推荐用于一般的生产环境。目前有10个并发请求限制，其他任何请求都将排队。
+
+var webserver = require(‘webserver’);
+
+port
+The port on which the server listen requests (read only)
+
+服务端监听请求的端口号（只读。）
+
+Close
+Listen
+request argument
+
+
+
+The request object passed to the callback function may contain the following properties:
+
+请求对象传递给回调函数可能包含以下属性：
+
+method: Defines the request method (‘GET’, ‘POST’, etc.)
+
+url: The path part and query string part (if any) of the request URL
+
+httpVersion: The actual HTTP version
+
+headers: All of the HTTP headers as key-value pairs
+
+post: The request body (only for ‘POST’ and ‘PUT’ method requests)
+
+postRaw: If the Content-Type header is set to ‘application/x-www-form-urlencoded’ (the default for form submissions), the original contents of post will be stored in this extra property (postRaw) and then post will be automatically updated with a URL-decoded version of the data.
+
+如果Content-Type header设置成“application/x-www-form-urlencoded”（表单默认提交），原先提交的内容将被存在额外的属性（postRow）中，并且原先的post将会自动被包括URL-decoded版本的数据重写。
+
+
+
+response argument
+
+The response object should be used to create the response using the following properties and functions:
+
+响应对象应该以以下属性和函数创建：
+
+headers: Stores all HTTP headers as key-value pairs. These must be set BEFORE calling write for the first time.
+
+以键值对存放一切http header。必须在write被第一次使用之前设置。
+
+setHeader(name, value): sets a specific header
+
+header(name): returns the value of the given header
+
+statusCode: Sets the returned HTTP status code.
+
+setEncoding(encoding): Indicate the encoding to use to convert data given to write(). By default data will be converted to UTF-8. Indicate “binary” if data is a binary string.
+
+write(data): Sends a chunk for the response body. Can be called multiple times.
+
+writeHead(statusCode, headers): Sends a response header to the request. The status code is a 3-digit HTTP status code (e.g. 404). The last argument, headers, are the response headers. Optionally one can give a human-readable headers collection as the second argument.
+
+close(): Closes the HTTP connection.
+
+To avoid the client detecting a connection drop, remember to use write() at least once. Sending an empty string (i.e. response.write(”)) would be enough if the only aim is, for example, to return an HTTP status code of 200 (“OK”).
+
+为避免客户检测到一个链接中断，记得使用至少一次write（）发送一个空字符串。这种情况适用于目标仅仅是返回 一个http状态吗200的情况。
+
+closeGracefully(): same as close(), but ensures response headers have been sent first (and do at least a response.write(”))
+
+自动地在关闭前发送一个空字符串。
