@@ -2,12 +2,12 @@ from selenium import webdriver
 import time
 import pymysql,random
 # # chrome driver 设置代理
-# PROXY_IP = "183.131.215.86:8080"
-# options = webdriver.ChromeOptions()
-# options.add_argument("--proxy-server={}".format(PROXY_IP))
-# driver = webdriver.Chrome(executable_path="/Users/Dery/SeleniumWebDriver/chromedriver",chrome_options=options)
-# driver.get("http://www.tianyancha.com")
-
+PROXY_IP = "183.131.215.86:8080"
+options = webdriver.ChromeOptions()
+options.add_argument("--proxy-server={}".format(PROXY_IP))
+driver = webdriver.Chrome(executable_path="/Users/Dery/SeleniumWebDriver/chromedriver",chrome_options=options)
+driver.get("http://www.tianyancha.com")
+time.sleep(9000)
 
 def get_proxies_ip():
     # MAX_RETRIES = 20
@@ -35,12 +35,3 @@ def get_proxies_ip():
         'http': 'http://' + random.choice(proxies_list)
     }
     return random.choice(proxies_list)
-
-ppp = get_proxies_ip()
-print(ppp)
-options = webdriver.ChromeOptions()
-options.add_argument("--proxy-server={}".format(ppp))
-driver = webdriver.Chrome(executable_path="/Users/Dery/SeleniumWebDriver/chromedriver",chrome_options=options)
-
-driver.get("http://www.tianyancha.com")
-time.sleep(800)
