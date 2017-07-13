@@ -1,8 +1,8 @@
 import redis    #导入redis-py模块
 
 class RedisPool:    #定义了一个连接池类，该类返回连接池中的一个连接给调用者
-    def Redis_Pool(self,ClientHost="127.0.0.1",ClientPort=6379,ClientDb=0):
-        pool=redis.ConnectionPool(host=ClientHost,port=ClientPort,db=ClientDb)
+    def Redis_Pool(self,ClientHost="127.0.0.1",ClientPort=6379,ClientDb=0,Password=123456):
+        pool=redis.ConnectionPool(host=ClientHost,port=ClientPort,db=ClientDb,password=Password)
         return redis.StrictRedis(connection_pool=pool)
 
 class ChangeKey: #该类使用获取到的redis连接对想要进行修改的key进行修改

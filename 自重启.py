@@ -4,15 +4,21 @@
 '''
 
 import time,sys,os
+
 def restart_program():
-  python = sys.executable
-  os.execl(python, python, * sys.argv)
+    # sys.executable 一个字符串给Python解释器的可执行二进制文件的绝对路径，在这样的系统上是有意义的。
+    # 如果Python无法检索其可执行文件的真实路径，则为sys.executable空字符串None。
+    python = sys.executable
+    # execl(file,*args,)
+    os.execl(python, python, * sys.argv)
+
+    # sys.argv 传递给Python脚本的命令行参数列表。
 
 if __name__ == "__main__":
-  print('start...')
-  print("3秒后,程序将结束...")
-  time.sleep(3)
-  restart_program()
+    print('start...')
+    print("3秒后,程序将结束...")
+    time.sleep(3)
+    restart_program()
 
 '''
 start...
