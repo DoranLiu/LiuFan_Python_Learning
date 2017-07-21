@@ -22,7 +22,7 @@
     - Merge_Sort     归并排序
     - Bubble_Sort    冒泡排序
     - Quick_Sort     快速排序
-    
+    - Gnome_Sort     侏儒排序
     - Counting_Sort  计数排序
     - Radix_Sort     基数排序
     

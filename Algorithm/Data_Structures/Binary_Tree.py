@@ -151,3 +151,14 @@ class Traversal():
 
 
 
+'''
+多路搜索树
+'''
+class Mutil_Tree():
+    def __init__(self,kids,next=None):
+        self.kids = self.val = kids
+        self.next = next
+t = Mutil_Tree(Mutil_Tree('a',Mutil_Tree('b',Mutil_Tree('c',Mutil_Tree('d')))))
+print(t.kids.next.next.val)
+
+
