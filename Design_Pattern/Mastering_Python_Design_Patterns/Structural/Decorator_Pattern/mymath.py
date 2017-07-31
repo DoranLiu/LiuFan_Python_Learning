@@ -26,6 +26,7 @@ import functools
 def memoize(fn):
     known = dict()
     # 所有递归函数都能因memoization而提速，那么来试试常用的斐波那契数列例子。
+    '''memoization是一 种优化技术，使用一个缓存来避免重复计算那些在更早的执行步骤中已经计算好的结果。'''
     @functools.wraps(fn)
     def memoizer(*args):
         if args not in known:
