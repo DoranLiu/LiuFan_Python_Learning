@@ -29,6 +29,7 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$mainGame.coverage" NAME="mainGame Coverage Results" MODIFIED="1500634458270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Game/Hit_AirCarft" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$retrieving_data.coverage" NAME="retrieving_data Coverage Results" MODIFIED="1494585322635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other/StockTrading" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$XXXXXX.coverage" NAME="XXXXXX Coverage Results" MODIFIED="1499309656673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$builder.coverage" NAME="builder Coverage Results" MODIFIED="1501484576723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter2" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$ss.coverage" NAME="ss Coverage Results" MODIFIED="1492422112424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_Knowlege" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a.coverage" NAME="a Coverage Results" MODIFIED="1493713225096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a8_AVL_Tree.coverage" NAME="a8_AVL_Tree Coverage Results" MODIFIED="1490950090035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
@@ -39,6 +40,8 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1491533337065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$useTor.coverage" NAME="useTor Coverage Results" MODIFIED="1499912659906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other/Tor" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$BB.coverage" NAME="BB Coverage Results" MODIFIED="1496220719887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other/StockTrading" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$clone.coverage" NAME="clone Coverage Results" MODIFIED="1501485307364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1501485854210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Defin_Decorator_in_Class.coverage" NAME="Defin_Decorator_in_Class Coverage Results" MODIFIED="1493715383671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Requests.coverage" NAME="Requests Coverage Results" MODIFIED="1496393885387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider_Crewl" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Gnome_Sort.coverage" NAME="Gnome_Sort Coverage Results" MODIFIED="1500004397071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting" />
@@ -46,6 +49,7 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$1.coverage" NAME="处理死锁1 Coverage Results" MODIFIED="1499839834857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Iterator_Learn.coverage" NAME="Iterator_Learn Coverage Results" MODIFIED="1493718939209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Iterator" />
     <SUITE FILE_PATH="coverage/Python_learnning$6_compile_example.coverage" NAME="6-compile-example Coverage Results" MODIFIED="1478227819666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$mymath.coverage" NAME="mymath Coverage Results" MODIFIED="1501496818845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Decorator_Pattern" />
     <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$d31_Redis_Star.coverage" NAME="d31_Redis_Star Coverage Results" MODIFIED="1499850998554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Base/Redis" />
     <SUITE FILE_PATH="coverage/Python_learnning$3_dir_example.coverage" NAME="3-dir-example Coverage Results" MODIFIED="1478160339031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
@@ -63,17 +67,21 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
     <SUITE FILE_PATH="coverage/Python_learnning$5_eval_example.coverage" NAME="5-eval-example Coverage Results" MODIFIED="1478162983907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Decorator_Save_Meta.coverage" NAME="Decorator_Save_Meta Coverage Results" MODIFIED="1493713518131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$adapter.coverage" NAME="adapter Coverage Results" MODIFIED="1501490631292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Decorator_Revise_Para.coverage" NAME="Decorator_Revise_Para Coverage Results" MODIFIED="1493715259371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Defin_Func_with_Para.coverage" NAME="Defin_Func_with_Para Coverage Results" MODIFIED="1493714516794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Decorator" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$factory_method__1_.coverage" NAME="factory_method (1) Coverage Results" MODIFIED="1501468059041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1" />
     <SUITE FILE_PATH="coverage/Python_learnning$import_example_2.coverage" NAME="import-example-2 Coverage Results" MODIFIED="1478157691600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a9_RedBlack_Tree.coverage" NAME="a9_RedBlack_Tree Coverage Results" MODIFIED="1490953708789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$c_re_Findall.coverage" NAME="c_re_Findall Coverage Results" MODIFIED="1490342878222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$XXXXXXXXX.coverage" NAME="XXXXXXXXX Coverage Results" MODIFIED="1499242240188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a6_BinHeap.coverage" NAME="a6_BinHeap Coverage Results" MODIFIED="1490947807269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Search.coverage" NAME="Search Coverage Results" MODIFIED="1490930783697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a1_Search" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$abstract_factory.coverage" NAME="abstract_factory Coverage Results" MODIFIED="1501480768772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a10_Linked_List.coverage" NAME="a10_Linked_List Coverage Results" MODIFIED="1491376927427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Bunch.coverage" NAME="Bunch Coverage Results" MODIFIED="1499927303540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Selenium_Chrome.coverage" NAME="Selenium_Chrome Coverage Results" MODIFIED="1499663767463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider_Crewl" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$factory_method.coverage" NAME="factory_method Coverage Results" MODIFIED="1501211462817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Send_SMS.coverage" NAME="Send_SMS Coverage Results" MODIFIED="1491977306770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Solution_Template.coverage" NAME="Solution_Template Coverage Results" MODIFIED="1491803130823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Algorithm_Question" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$.coverage" NAME="自重启 Coverage Results" MODIFIED="1499853136017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -86,6 +94,7 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1490944491592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Examination_Type.coverage" NAME="Examination_Type Coverage Results" MODIFIED="1493782858330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Class_Object" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$cadf.coverage" NAME="cadf Coverage Results" MODIFIED="1496220775407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other/StockTrading" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$id.coverage" NAME="id Coverage Results" MODIFIED="1501468142225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Start.coverage" NAME="Start Coverage Results" MODIFIED="1498616856050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProxiesPool" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -106,87 +115,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="垃圾回收.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Python基础/垃圾回收.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="208">
-                <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MysqlHelper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data_Base/MySQL/MysqlHelper.py">
+      <file leaf-file-name="facade.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Facade_Pattern/facade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factory_method.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/factory_method.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="160">
+              <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
               <folding>
-                <element signature="e#1398#1435#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.SQL约束.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_Knowlege/MySQL/2.SQL约束.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="16">
-                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01_abc.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/01_abc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Association.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Association.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tproxy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tproxy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#302#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,37 +143,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data_Base/SQLAlchemy/text.py" />
-        <option value="$PROJECT_DIR$/Data_Base/Redis/Redis_Learn.py" />
-        <option value="$PROJECT_DIR$/Other/StockTrading/BB.py" />
-        <option value="$PROJECT_DIR$/Other/StockTrading/FI.py" />
-        <option value="$PROJECT_DIR$/Other/StockTrading/evm.py" />
-        <option value="$PROJECT_DIR$/Other/StockTrading/CCI.py" />
-        <option value="$PROJECT_DIR$/Other/ACFUN.py" />
-        <option value="$PROJECT_DIR$/Image/gif.py" />
-        <option value="$PROJECT_DIR$/Other/StockTrading/event.py" />
-        <option value="$PROJECT_DIR$/Spider_Crewl/Requests.py" />
-        <option value="$PROJECT_DIR$/Spider_Crewl/Selenium_PhantomJS.py" />
-        <option value="$PROJECT_DIR$/ProxiesPool/config.py" />
-        <option value="$PROJECT_DIR$/ProxiesPool/Start.py" />
-        <option value="$PROJECT_DIR$/Spider_Crewl/PhantomJS/phontomJS_API.txt" />
-        <option value="$PROJECT_DIR$/renren.csv" />
-        <option value="$PROJECT_DIR$/renre.html" />
-        <option value="$PROJECT_DIR$/renren.py" />
-        <option value="$PROJECT_DIR$/XXXXXXXXX.py" />
-        <option value="$PROJECT_DIR$/XXXXXX.py" />
         <option value="$PROJECT_DIR$/Spider_Crewl/Selenium_Chrome.py" />
         <option value="$PROJECT_DIR$/P_name.csv" />
         <option value="$PROJECT_DIR$/处理死锁.py" />
         <option value="$PROJECT_DIR$/Data_Base/Redis/x20170712.py" />
         <option value="$PROJECT_DIR$/Data_Base/Redis/d31_Redis_Star.py" />
         <option value="$PROJECT_DIR$/自重启.py" />
-        <option value="$PROJECT_DIR$/Design_Pattern/Simple_Factory.py" />
         <option value="$PROJECT_DIR$/Other/Tor/useTor.py" />
         <option value="$PROJECT_DIR$/Basic_Knowlege/about_Python.md" />
         <option value="$PROJECT_DIR$/Algorithm/Data_Structures/Binary_Tree.py" />
         <option value="$PROJECT_DIR$/Design_Pattern/Bunch.py" />
-        <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Merge_Sort.py" />
         <option value="$PROJECT_DIR$/Algorithm/Algorithm_README.md" />
         <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Gnome_Sort.py" />
         <option value="$PROJECT_DIR$/处理死锁1.py" />
@@ -253,12 +167,33 @@
         <option value="$PROJECT_DIR$/Basic_Knowlege/Python基础/内存管理.md" />
         <option value="$PROJECT_DIR$/Basic_Knowlege/Association.py" />
         <option value="$PROJECT_DIR$/tproxy.py" />
-        <option value="$PROJECT_DIR$/Basic_Knowlege/Python基础/垃圾回收.md" />
         <option value="$PROJECT_DIR$/Spider_Crewl/Spider_Frame/Grab_Demo.py" />
         <option value="$PROJECT_DIR$/Data_Base/MySQL/MysqlHelper.py" />
-        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/factory_method.py" />
         <option value="$PROJECT_DIR$/Basic_Knowlege/MySQL/1.创建数据库并插入数据.md" />
         <option value="$PROJECT_DIR$/Basic_Knowlege/MySQL/2.SQL约束.md" />
+        <option value="$PROJECT_DIR$/Basic_Knowlege/Python基础/垃圾回收.md" />
+        <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Insertion_Sort.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Bubble_Sort.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Quick_Sort.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Merge_Sort.py" />
+        <option value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/factory_method.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/factory_method.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Simple_Factory.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Factory_Pattern.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/abstract_factory.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern/Order_Pizza.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter2/builder2.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern/Order_Pizza_Linked.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter3/prototype.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern/clone.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern/prototype.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern/external.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern/adapter.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter5/mymath.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Decorator_Pattern/mymath.py" />
+        <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Facade_Pattern/facade.py" />
       </list>
     </option>
   </component>
@@ -272,8 +207,10 @@
     <handled-path value="$PROJECT_DIR$/Python_Project/500lines/spreadsheet/code/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-363" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,12 +252,124 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
+              <option name="myItemId" value="Design_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Structural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Facade_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Structural" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Decorator_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiuFan_Python_Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design_Pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Structural" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,19 +382,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
+      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern" />
+      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Factory_Applica" />
+      <recent name="$PROJECT_DIR$/Basic_Knowlege/About_Python" />
+      <recent name="$PROJECT_DIR$/Spider_Crewl/PhantomJS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Algorithm/Data_Structures" />
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns" />
       <recent name="$PROJECT_DIR$/Game/Hit_AirCarft" />
       <recent name="$PROJECT_DIR$/Design_Pattern" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Basic_Knowlege/About_Python" />
-      <recent name="$PROJECT_DIR$/Spider_Crewl/PhantomJS" />
-      <recent name="$PROJECT_DIR$/Other/StockTrading/FeatureUtils" />
-      <recent name="$PROJECT_DIR$/Other/StockTrading/Crawler_Data" />
-      <recent name="$PROJECT_DIR$/Data_Base/Redis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,95 +409,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mainGame">
-    <configuration default="false" name="Gnome_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mymath">
+    <configuration default="false" name="builder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Gnome_Sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter2/builder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="namp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="clone" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Violent_Python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Violent_Python/namp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern/clone.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in test_bridge.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/python-patterns/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Design_Pattern/python-patterns/tests/test_bridge.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="01-飞机大战-创建窗口" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="prototype" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game/Hit_AirCarft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game/Hit_AirCarft/01-飞机大战-创建窗口.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern/prototype.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="mainGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="adapter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game/Hit_AirCarft" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game/Hit_AirCarft/mainGame.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern/adapter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mymath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Decorator_Pattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Decorator_Pattern/mymath.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -639,19 +688,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Gnome_Sort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.namp" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_bridge.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.01-飞机大战-创建窗口" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mainGame" />
+      <item index="0" class="java.lang.String" itemvalue="Python.builder" />
+      <item index="1" class="java.lang.String" itemvalue="Python.clone" />
+      <item index="2" class="java.lang.String" itemvalue="Python.prototype" />
+      <item index="3" class="java.lang.String" itemvalue="Python.adapter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mymath" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mainGame" />
-        <item index="1" class="java.lang.String" itemvalue="Python.01-飞机大战-创建窗口" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_bridge.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.namp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Gnome_Sort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mymath" />
+        <item index="1" class="java.lang.String" itemvalue="Python.adapter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.prototype" />
+        <item index="3" class="java.lang.String" itemvalue="Python.clone" />
+        <item index="4" class="java.lang.String" itemvalue="Python.builder" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -697,15 +746,16 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-363" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29369918" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29369918" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23069106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27948305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15069222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -770,243 +820,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm_README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="243">
-            <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/Binary_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2576">
-          <caret line="161" column="26" lean-forward="false" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Creat_Mange_Object.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kernel_Mode/Class_Object/Class_Compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/P_name.csv" />
-    <entry file="file://$PROJECT_DIR$/Violent_Python/namp.py" />
-    <entry file="file://$PROJECT_DIR$/处理死锁1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Gnome_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/处理死锁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/python-patterns/behavioral/catalog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自重启.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/python-patterns/tests/test_bridge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/python-patterns/other/hsm/classes_test_hsm.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/data/donut.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/data/person.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/abstract_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pygame/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/How To Install pygame in MacOS.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="648">
-            <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/hitPlan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/feiji/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/游戏中的原点.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/循环过程中，删除元素的bug-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/游戏大体的运行框架.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/飞机碰撞原理.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/基础班-快速复习.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3169">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/test-扩展-飞机爆炸.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/02-飞机大战-显示玩家飞机.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/01-飞机大战-创建窗口.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/03-飞机大战-控制玩家飞机左右移动.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/Hit_AirCratf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3984">
-          <caret line="249" column="18" lean-forward="true" selection-start-line="249" selection-start-column="18" selection-end-line="249" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="464">
-            <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Game/Hit_AirCarft/gameRole.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1019,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,58 +839,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/About_Python/the_different_language.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/About_Python/Garbage Collection.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/About_Python/about_Python.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="480">
-            <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/About_Python/the_different_language.md" />
+    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/About_Python/Garbage Collection.md" />
+    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/About_Python/about_Python.md" />
     <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Python基础/内存管理.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="80">
             <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1092,7 +863,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1109,38 +879,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tproxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spider_Crewl/Spider_Frame/Grab_Demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#59#0" expanded="false" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Python基础/垃圾回收.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="208">
-            <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic_Knowlege/MySQL/1.创建数据库并插入数据.md">
@@ -1148,7 +891,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="528">
             <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1157,22 +899,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/factory_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#1398#1435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data_Base/MongoDB/Mongo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1205,9 +936,311 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/01_abc.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tproxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Bubble_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Selection_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/09_bubble_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/10_select_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/12_shell_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/11_insert_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/13_quick_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/14_merge_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Insertion_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Merge_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Quick_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2009">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/factory_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Simple_Factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Factory_Applica/factory_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter2/builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="108" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter2/builder2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern/Order_Pizza_Linked.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern/computer-builder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Factory_Pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/abstract_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern/Order_Pizza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#275#296#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter3/prototype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern/clone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Prototype_Design_Pattern/prototype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding>
+            <element signature="e#358#899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic_Knowlege/Python基础/垃圾回收.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern/external.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Adapter_Pattern/adapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter5/mymath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Decorator_Pattern/mymath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Facade_Pattern/facade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="e#302#323#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,8 +5,10 @@
 类似合并排序和插入排序的结合体，二路合并排序将原来的数组分成左右两部分，
 希尔排序则将数组按照一定的间隔分成几部分，每部分采用插入排序来排序，有意思的是这样做了之后，
 元素很多情况下就差不多在它应该呆的位置，所以效率不一定比插入排序差。
-时间复杂度 [O(n),O(n^2)]
+时间复杂度 [O(nlogn),O(n^2)]
 空间复杂度 O(1)
+
+最好复杂度 O(n^1.3)
 
 不稳定
 
@@ -71,7 +73,7 @@ shell_sort(a_list)
 print(a_list)
 
 # 源码的步长的选择是从 n/2 开始，每次再减半，直至为0。步长的选择直接决定了希尔排序的复杂度。在维基百科上有对于步长串行的详细介绍。
-def shell_sort(ary):
+def shell_sort2(ary):
     n = len(ary)
     gap = round(n/2)       #初始步长 , 用round四舍五入取整
     while gap > 0 :
@@ -84,3 +86,33 @@ def shell_sort(ary):
             ary[j] = temp
         gap = round(gap/2)                     #重新设置步长
     return ary
+
+
+
+def shell_sort3(alist):
+    """希尔排序"""
+    # n=9
+    n = len(alist)
+    # gap =4
+    gap = n // 2
+    # i = gap
+    # for i in range(gap, n):
+    #     # i = [gap, gap+1, gap+2, gap+3... n-1]
+    #     while:
+    #     if alist[i] < alist[i-gap]:
+    #         alist[i], alist[i-gap] = alist[i-gap], alist[i]
+
+    # gap变化到0之前，插入算法执行的次数
+    while gap > 0:
+        # 插入算法，与普通的插入算法的区别就是gap步长
+        for j in range(gap, n):
+            # j = [gap, gap+1, gap+2, gap+3, ..., n-1]
+            i = j
+            while i > 0:
+                if alist[i] < alist[i-gap]:
+                    alist[i], alist[i-gap] = alist[i-gap], alist[i]
+                    i -= gap
+                else:
+                    break
+        # 缩短gap步长
+        gap //= 2

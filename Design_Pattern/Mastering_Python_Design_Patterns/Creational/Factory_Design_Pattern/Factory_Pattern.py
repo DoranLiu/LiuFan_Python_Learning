@@ -1,9 +1,43 @@
 '''
+创建者模式：
+创建型设计模式处理对象创建相关的问题，目标是当直接创建对象不太方便时，提供更好的方式。
+在工厂设计模式中，客户端可以请求一个对象，而无需知道这个对象来自哪里;也就是，使用哪个类来生成这个对象。
+
+工厂背后的思想是简化对象的创建。
+与客户端自己基于类实例化直接创建对象相比，基于一个中心化函数来实现，更易于追踪创建了哪些对象。
+通过将创建对象的代码和使用对象的代码解耦，工厂能够降低应用维护的复杂度。
+
+工厂通常有两种形式:
+第一种是工厂方法(Factory Method)，它是一个方法(或以地道的Python 术语来说，是一个函数)，对不同的输入参数返回不同的对象;
+第二种是抽象工厂，它是一组用于创建一系列相关事物对象的工厂方法。
+
+创建者模式下有五种经典的模式：
+1.抽象工厂模式 Abstract factory pattern, which provides an interface for creating related or dependent objects without specifying the objects' concrete classes.
+2.生成器模式 Builder pattern, which separates the construction of a complex object from its representation so that the same construction process can create different representations.
+3.工厂方法模式 Factory method pattern, which allows a class to defer instantiation to subclasses.
+4.原型模式 Prototype pattern, which specifies the kind of object to create using a prototypical instance, and creates new objects by cloning this prototype.
+5.单例模式 Singleton pattern, which ensures that a class only has one instance, and provides a global point of access to it.
+'''
 
 '''
+工厂方法模式:
+在工厂方法模式中，我们执行单个函数，传入一个参数(提供信息表明我们想要什么)，
+但并不要求知道任何关于对象如何实现以及对象来自哪里的细节。
+
+例如：
+Django框架使用工厂方法模式来创建表单字段。
+Django的forms模块支持不同种类字段 (CharField、EmailField)的创建和定制(max_length、required)。
+
+应用：
+如果因为应用创建对象的代码分布在多个不同的地方，而不是仅在一个函数/方法中，你发现没法跟踪这些对象，那么应该考虑使用工厂方法模式。
+工厂方法集中地在一个地方创建对象，使对象跟踪变得更容易。
+注意，创建多个工厂方法也完全没有问题，实践中通常也这么做，对相似的对象创建进行逻辑分组，每个工厂方法负责一个分组。
+'''
+
 
 '''------------------------简单工厂模式（Simple Factory）------------------------------'''
 import random
+
 class BasicCourse(object):
     """ 基础课程 """
     def get_labs(self):
@@ -84,11 +118,12 @@ if __name__ == '__main__':
 '''------------------------抽象工厂模式(Abstract Factory)------------------------------'''
 # 在工厂方法模式中，我们会遇到一个问题，当产品非常多时，继续使用工厂方法模式会产生非常多的工厂类。
 # 现在我们有一个产品是课程，但是仅仅依靠课程还没办法提供完美的服务，因为在 实验楼 你可以边学课程边做实验呢。在哪里做实验呢？当然是在虚拟机里了。当然我们也有很多种虚拟机，比如 Linux 虚拟机和 Mac 虚拟机。
-# 如果按照工厂方法模式的作法，我们需要创建 Linux 虚拟机工厂类和 Mac 虚拟机工厂类， 这样我们就会有一堆工厂类了。但是在 实验楼 里，真正的情况是只有虚拟机和课程结合在一起才能给用户提供完美的服务。我们就不能创建出一个能同时创建课程和虚拟机的工厂吗？因为我们知道其实用户的需求同时包含了课程和虚拟机，如果有一座工厂能同时生产这两种产品就完美了。
-#
+# 如果按照工厂方法模式的作法，我们需要创建 Linux 虚拟机工厂类和 Mac 虚拟机工厂类， 这样我们就会有一堆工厂类了。
+# 我们就不能创建出一个能同时创建课程和虚拟机的工厂吗？因为我们知道其实用户的需求同时包含了课程和虚拟机，如果有一座工厂能同时生产这两种产品就完美了。
 
 import random
 import abc
+
 # 两种类型的课程
 class BasicCourse(object):
     """ 基础课程 """
@@ -111,6 +146,7 @@ class MacVm(object):
     """ Mac OSX 虚拟机 """
     def start(self):
         return "Mac OSX vm running"
+
 class Factory(object):
     """ 抽象工厂类, 现在工厂类不仅能创建课程，还能创建虚拟机了 """
     __metaclass__ = abc.ABCMeta
@@ -120,6 +156,7 @@ class Factory(object):
     @abc.abstractmethod
     def create_vm(self):
         pass
+
 class BasciCourseLinuxFactory(Factory):
     """ 基础课程工厂类 """
     def create_course(self):
@@ -135,6 +172,7 @@ class ProjectCourseMacFactory(Factory):
 def get_factory():
     """ 随机获取一个工厂类 """
     return random.choice([BasciCourseLinuxFactory, ProjectCourseMacFactory])()
+
 if __name__ == '__main__':
     factory = get_factory()
     course = factory.create_course()

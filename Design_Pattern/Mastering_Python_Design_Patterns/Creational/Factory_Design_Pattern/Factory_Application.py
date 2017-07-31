@@ -3,7 +3,7 @@ import json
 
 
 class JSONConnector:
-
+    # 解析JSON文件
     def __init__(self, filepath):
         self.data = dict()
         with open(filepath, mode='r', encoding='utf-8') as f:
@@ -15,7 +15,7 @@ class JSONConnector:
 
 
 class XMLConnector:
-
+    # 解析XML文件
     def __init__(self, filepath):
         self.tree = etree.parse(filepath)
 
@@ -25,6 +25,7 @@ class XMLConnector:
 
 
 def connection_factory(filepath):
+    # 工厂方法
     if filepath.endswith('json'):
         connector = JSONConnector
     elif filepath.endswith('xml'):
@@ -35,6 +36,7 @@ def connection_factory(filepath):
 
 
 def connect_to(filepath):
+    # 函数connect_to()对connection_factory()进行包装，添加了异常处理
     factory = None
     try:
         factory = connection_factory(filepath)
@@ -44,6 +46,7 @@ def connect_to(filepath):
 
 
 def main():
+    # 确认异常处理是否有效
     sqlite_factory = connect_to('data/person.sq3')
     print()
 

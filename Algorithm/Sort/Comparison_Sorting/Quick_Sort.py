@@ -37,6 +37,35 @@ partition是返回一个基准值的index, index 左边都小于该index的数�
 最后，停止移动时候rightmark就是主元要放置的位置，因为它停在一个比主元小的元素的位置上，之后交换主元和rightmark指向的元素即可。
 完了之后，递归地对主元左右两边的数组进行排序即可。
 '''
+
+#---
+
+def quick_sort(alist, first, last):
+    """快速排序"""
+    if first >= last:
+        return
+    mid_value = alist[first]
+    low = first
+    high = last
+    while low < high:
+        # high 左移
+        while low < high and alist[high] >= mid_value:
+            high -= 1
+        alist[low] = alist[high]
+
+        while low <high and alist[low] < mid_value:
+            low += 1
+        alist[high] = alist[low]
+    # 从循环退出时，low==high
+    alist[low] = mid_value
+
+    # 对low左边的列表执行快速排序
+    quick_sort(alist, first, low-1)
+
+    # 对low右边的列表排序
+    quick_sort(alist, low+1, last)
+# ---
+
 def quick_sort_1(a_list):
     quick_sort_helper(a_list, 0, len(a_list) - 1)
 

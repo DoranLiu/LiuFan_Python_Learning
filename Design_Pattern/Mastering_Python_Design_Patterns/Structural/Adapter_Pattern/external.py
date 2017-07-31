@@ -1,3 +1,7 @@
+'''
+在Synthesizer类中，主要动作由play()方法执行。
+在Human类中，主要动作由speak()方法执行。
+'''
 class Synthesizer:
 
     def __init__(self, name):
