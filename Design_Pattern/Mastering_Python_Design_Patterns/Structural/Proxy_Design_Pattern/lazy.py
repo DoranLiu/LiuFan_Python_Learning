@@ -1,6 +1,8 @@
 # coding: utf-8
 
 
+# LazyProperty类实际上是一个描述符(请参考网页[t.cn/RqrYBND])。
+# 描述符(descriptor) 是Python中重写类属性访问方法(__get__()、__set__()和__delete__())的默认行为要使 用的一种推荐机制。
 class LazyProperty:
 
     def __init__(self, method):

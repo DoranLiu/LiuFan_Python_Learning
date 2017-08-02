@@ -1,6 +1,6 @@
 # coding: utf-8
 
-
+'''函数bfs()和dfs()在start和end之间存在 一条路径时返回一个元组(True, path);如果路径不存在，则返回(False, path)(此时， path为空)。'''
 def bfs(graph, start, end):
     path = []
     visited = [start]

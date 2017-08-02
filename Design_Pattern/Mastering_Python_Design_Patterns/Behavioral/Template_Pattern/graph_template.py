@@ -1,6 +1,11 @@
 # coding: utf-8
 
-
+'''
+为了避免重复而对graph.py进行必要的重构之后的代码
+不再有bfs()和dfs()两个函数，我们将代码重构为使用单个traverse()函数。
+traverse() 函数实际上是一个模板函数。它接受一个参数action，该参数是一个“知道”如何延伸路径的函数。
+根据要使用的算法，我们可以传递extend_bfs_path()或extend_dfs_path()作为目标动作。
+'''
 def traverse(graph, start, end, action):
     path = []
     visited = [start]

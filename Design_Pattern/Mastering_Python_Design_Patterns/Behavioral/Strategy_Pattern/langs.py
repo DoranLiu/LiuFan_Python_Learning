@@ -1,6 +1,11 @@
 import pprint
 from collections import namedtuple
 from operator import attrgetter
+'''
+pprint和attrgetter模块。p
+print模块用于美化输出一个数据结构， attrgetter用于通过属性名访问class或namedtuple的属性。
+也可以使用一个lambda函数来替代使用attrgetter。
+'''
 if __name__ == '__main__':
     ProgrammingLang = namedtuple('ProgrammingLang', 'name ranking')
     stats = (('Ruby', 14), ('Javascript', 8), ('Python', 7),
