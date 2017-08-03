@@ -51,6 +51,7 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$1.coverage" NAME="处理死锁1 Coverage Results" MODIFIED="1499839834857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Iterator_Learn.coverage" NAME="Iterator_Learn Coverage Results" MODIFIED="1493718939209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Kernel_Mode/Iterator" />
     <SUITE FILE_PATH="coverage/Python_learnning$6_compile_example.coverage" NAME="6-compile-example Coverage Results" MODIFIED="1478227819666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Numpy_Array.coverage" NAME="Numpy_Array Coverage Results" MODIFIED="1501726197413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Process/Numpy" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$mymath.coverage" NAME="mymath Coverage Results" MODIFIED="1501496818845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Decorator_Pattern" />
     <SUITE FILE_PATH="coverage/Python_learnning$String_Question_1.coverage" NAME="String_Question_1 Coverage Results" MODIFIED="1479281618673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法实战" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$d31_Redis_Star.coverage" NAME="d31_Redis_Star Coverage Results" MODIFIED="1499850998554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Base/Redis" />
@@ -65,6 +66,7 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_Comparative_Performance.coverage" NAME="a1_Comparative_Performance Coverage Results" MODIFIED="1490944937971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$Unittests_in_test_bridge_py.coverage" NAME="Unittests in test_bridge.py Coverage Results" MODIFIED="1500618679345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/python-patterns/tests" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$x20170712.coverage" NAME="x20170712 Coverage Results" MODIFIED="1499850858671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Base/Redis" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$ldjdldlkc_sa.coverage" NAME="ldjdldlkc.sa Coverage Results" MODIFIED="1501747587706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Process/Pandas" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$b_Simple_Factory.coverage" NAME="b_Simple_Factory Coverage Results" MODIFIED="1488448694212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Design_Pattern" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a1_the_num_of_one.coverage" NAME="a1_the_num_of_one Coverage Results" MODIFIED="1488732580171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_Interview_Test" />
     <SUITE FILE_PATH="coverage/Python_learnning$5_eval_example.coverage" NAME="5-eval-example Coverage Results" MODIFIED="1478162983907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
@@ -75,6 +77,7 @@
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$factory_method__1_.coverage" NAME="factory_method (1) Coverage Results" MODIFIED="1501468059041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1" />
     <SUITE FILE_PATH="coverage/Python_learnning$import_example_2.coverage" NAME="import-example-2 Coverage Results" MODIFIED="1478157691600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.核心模块/1.1.__builtin__" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$a9_RedBlack_Tree.coverage" NAME="a9_RedBlack_Tree Coverage Results" MODIFIED="1490953708789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_Algorithm/a3_Data_Structures" />
+    <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$tsttstststtkjhk.coverage" NAME="tsttstststtkjhk Coverage Results" MODIFIED="1501725386589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Process/Numpy" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$c_re_Findall.coverage" NAME="c_re_Findall Coverage Results" MODIFIED="1490342878222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_Kernel_Mode/b_re" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$XXXXXXXXX.coverage" NAME="XXXXXXXXX Coverage Results" MODIFIED="1499242240188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LiuFan_Python_Learning$lazy.coverage" NAME="lazy Coverage Results" MODIFIED="1501558811151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern" />
@@ -118,12 +121,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="graph_template.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Template_Pattern/graph_template.py">
+      <file leaf-file-name="chat_client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Socket/chat_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat_service.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Socket/chat_service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Numpy_Array.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/Numpy_Array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5584">
+              <caret line="349" column="26" lean-forward="false" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Numpy_BFunc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/Numpy_BFunc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week4-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week4-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+              <folding>
+                <element signature="e#24#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ldjdldlkc.sa.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Process/Pandas/ldjdldlkc.sa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,12 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Game/How To Install pygame in MacOS.md" />
-        <option value="$PROJECT_DIR$/Game/Hit_AirCarft/01-飞机大战-创建窗口.py" />
-        <option value="$PROJECT_DIR$/Game/Hit_AirCarft/Hit_AirCratf.py" />
-        <option value="$PROJECT_DIR$/Game/Hit_AirCarft/mainGame.py" />
-        <option value="$PROJECT_DIR$/Basic_Knowlege/About_Python/Garbage Collection.md" />
-        <option value="$PROJECT_DIR$/Basic_Knowlege/About_Python/about_Python.md" />
         <option value="$PROJECT_DIR$/Basic_Knowlege/Python基础/内存管理.md" />
         <option value="$PROJECT_DIR$/Basic_Knowlege/Association.py" />
         <option value="$PROJECT_DIR$/tproxy.py" />
@@ -195,6 +266,12 @@
         <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Strategy_Pattern/langs.py" />
         <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/chapter16/graph.py" />
         <option value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Template_Pattern/graph_template.py" />
+        <option value="$PROJECT_DIR$/Data_Process/Numpy/tsttstststtkjhk.py" />
+        <option value="$PROJECT_DIR$/Data_Process/Numpy/week3.py" />
+        <option value="$PROJECT_DIR$/Data_Process/Numpy/Numpy_Array.py" />
+        <option value="$PROJECT_DIR$/Data_Process/Numpy/Numpy_BFunc.py" />
+        <option value="$PROJECT_DIR$/Data_Process/Numpy/week4.py" />
+        <option value="$PROJECT_DIR$/Data_Process/Pandas/ldjdldlkc.sa.py" />
       </list>
     </option>
   </component>
@@ -254,91 +331,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Behavioral" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LiuFan_Python_Learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design_Pattern" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mastering_Python_Design_Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Behavioral" />
+              <option name="myItemId" value="Data_Process" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,19 +350,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Algorithm/Data_Structures" />
-      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
-      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns" />
-      <recent name="$PROJECT_DIR$/Game/Hit_AirCarft" />
-      <recent name="$PROJECT_DIR$/Design_Pattern" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral" />
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural" />
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Builder_Design_Pattern" />
       <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/Factory_Applica" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data_Process/Numpy" />
+      <recent name="$PROJECT_DIR$/Algorithm/Data_Structures" />
+      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational" />
+      <recent name="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns" />
+      <recent name="$PROJECT_DIR$/Game/Hit_AirCarft" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,60 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.command">
-    <configuration default="false" name="mvc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/ModelViewController_Pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/ModelViewController_Pattern/mvc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for /Users/Dery/WorkSpace/Python/LiuFan_Python_Learning/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern/lazy.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern/lazy.py&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for " type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LiuFan_Python_Learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ldjdldlkc.sa">
     <configuration default="false" name="lazy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,6 +411,63 @@
       <module name="LiuFan_Python_Learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Command_Pattern/command.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tsttstststtkjhk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Process/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Process/Numpy/tsttstststtkjhk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Numpy_Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Process/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Process/Numpy/Numpy_Array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ldjdldlkc.sa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Process/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LiuFan_Python_Learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Process/Pandas/ldjdldlkc.sa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -659,19 +656,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.mvc" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for /Users/Dery/WorkSpace/Python/LiuFan_Python_Learning/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern/lazy.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for " />
-      <item index="3" class="java.lang.String" itemvalue="Python.lazy" />
-      <item index="4" class="java.lang.String" itemvalue="Python.command" />
+      <item index="0" class="java.lang.String" itemvalue="Python.lazy" />
+      <item index="1" class="java.lang.String" itemvalue="Python.command" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tsttstststtkjhk" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Numpy_Array" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ldjdldlkc.sa" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.command" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lazy" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for " />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for /Users/Dery/WorkSpace/Python/LiuFan_Python_Learning/Design_Pattern/Mastering_Python_Design_Patterns/Structural/Proxy_Design_Pattern/lazy.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mvc" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ldjdldlkc.sa" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Numpy_Array" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tsttstststtkjhk" />
+        <item index="3" class="java.lang.String" itemvalue="Python.command" />
+        <item index="4" class="java.lang.String" itemvalue="Python.lazy" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -718,18 +715,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-363" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15228967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29369918" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29369918" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23069106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39772728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -790,54 +788,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Bubble_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Selection_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/09_bubble_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/10_select_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/12_shell_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/11_insert_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/13_quick_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Data_Structures/14_merge_sort.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Insertion_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Shell_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Merge_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Sort/Comparison_Sorting/Quick_Sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2009">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/chapter1/id.py" />
     <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Creational/factory_method.py" />
     <entry file="file://$PROJECT_DIR$/Design_Pattern/Simple_Factory.py" />
@@ -944,9 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-880">
           <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding>
-            <element signature="e#302#323#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
           <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="31" column="76" lean-forward="true" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,23 +915,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/chapter10/chain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/chapter10/chain.py" />
     <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Chain_of_Responsibility/chain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="44" column="86" lean-forward="false" selection-start-line="44" selection-start-column="86" selection-end-line="44" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
           <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,25 +972,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/chapter16/graph.py" />
+    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Template_Pattern/graph_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/chat_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/file_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Socket/chat_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/tsttstststtkjhk.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/random-matrix.csv" />
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week3.py" />
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/Numpy_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5584">
+          <caret line="349" column="26" lean-forward="false" selection-start-line="349" selection-start-column="26" selection-end-line="349" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/Numpy_BFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week4-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#24#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/chapter16/graph.py">
+    <entry file="file://$PROJECT_DIR$/Data_Process/Numpy/week1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="92" lean-forward="false" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design_Pattern/Mastering_Python_Design_Patterns/Behavioral/Template_Pattern/graph_template.py">
+    <entry file="file://$PROJECT_DIR$/Data_Process/Pandas/ldjdldlkc.sa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
