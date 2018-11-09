@@ -5,12 +5,9 @@ import itchat
 TuRing: http://tuling123.com/help/h_cent_webapi.jhtml
 '''
 
-KEY = '8edce3ce905a4c1dbb965e6b35c3834d'
+KEY = 
 '''
-8edce3ce905a4c1dbb965e6b35c3834d
-eb720a8970964f3f855d863d24406576
-1107d5601866433dba9599fac1bc0083
-71f28bf79c820df10d39b4074345ef8c
+xxx
 '''
 
 # 图片对应itchat.content.PICTURE
